@@ -1,0 +1,1716 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /homes/amamoun/cdc4/serverless/build
+make: Entering directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make[1]: Entering directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make[2]: Entering directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make[2]: Leaving directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+[ 71%] Built target faiss
+make[2]: Entering directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make[2]: Leaving directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+[ 74%] Built target faiss_python_callbacks
+make[2]: Entering directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make[2]: Leaving directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+[ 75%] Built target swigfaiss_swig_compilation
+make[2]: Entering directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make[2]: Leaving directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+[ 78%] Built target swigfaiss
+make[2]: Entering directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make[2]: Leaving directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+[ 79%] Built target gtest
+make[2]: Entering directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make[2]: Leaving directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+[ 82%] Built target gtest_main
+make[2]: Entering directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make[2]: Leaving directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+[100%] Built target faiss_test
+make[1]: Leaving directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make: Leaving directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make: Entering directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make[1]: Entering directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make[2]: Entering directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make[3]: Entering directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make[3]: Leaving directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+[ 96%] Built target faiss
+make[3]: Entering directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+Scanning dependencies of target demo_sift1M
+make[3]: Leaving directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make[3]: Entering directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+[ 98%] Building CXX object demos/CMakeFiles/demo_sift1M.dir/demo_sift1M.cpp.o
+[100%] Linking CXX executable demo_sift1M
+make[3]: Leaving directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+[100%] Built target demo_sift1M
+make[2]: Leaving directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make[1]: Leaving directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+make: Leaving directory '/u/antor/u28/amamoun/cdc4/serverless/build'
+[0.000 s] Loading train set
+[0.030 s] Preparing index "IVF4096,PQ32" d=128
+[0.031 s] Training on 100000 vectors
+[551.103 s] Loading database
+[552.023 s] Indexing database, size 1000000*128
+[682.373 s] Loading queries
+[682.377 s] Loading ground truth for 10000 queries
+[682.391 s] Preparing auto-tune criterion 1-recall at 1 criterion, with k=200 nq=10000
+[682.405 s] Preparing auto-tune parameters
+[682.405 s] Auto-tuning over 2 parameters (780 combinations)
+  0/500: cno=0 nprobe=1,ht=2 bounds [perf<=1.000 t>=0.000] 
+STATS:IndexIVF::search() [1], 200,  30.018066, 79.049072
+
+STATS:IndexIVF::search() [1], 200,  30.262207, 79.412109
+
+STATS:IndexIVF::search() [1], 200,  29.799072, 79.443115
+
+STATS:IndexIVF::search() [1], 200,  28.064941, 80.744873
+
+STATS:IndexIVF::search() [1], 200,  27.939209, 80.770020
+
+STATS:IndexIVF::search() [1], 200,  30.197998, 80.967041
+
+STATS:IndexIVF::search() [1], 200,  28.026123, 81.256104
+
+STATS:IndexIVF::search() [1], 200,  27.862793, 81.206787
+
+STATS:IndexIVF::search() [1], 200,  27.274902, 81.303955
+
+STATS:IndexIVF::search() [1], 200,  27.128906, 81.393799
+
+STATS:IndexIVF::search() [1], 200,  29.610107, 81.955078
+
+STATS:IndexIVF::search() [1], 200,  30.195068, 82.267090
+
+STATS:IndexIVF::search() [1], 200,  29.754883, 82.380859
+
+STATS:IndexIVF::search() [1], 200,  27.100098, 82.346191
+
+STATS:IndexIVF::search() [1], 200,  29.294922, 82.367920
+
+STATS:IndexIVF::search() [1], 200,  28.104004, 82.634033
+
+STATS:IndexIVF::search() [1], 200,  29.524902, 82.608887
+
+STATS:IndexIVF::search() [1], 200,  29.350098, 82.667969
+
+STATS:IndexIVF::search() [1], 200,  28.902100, 82.755127
+
+STATS:IndexIVF::search() [1], 200,  29.188965, 82.641846
+
+STATS:IndexIVF::search() [1], 200,  28.078857, 83.229980
+
+STATS:IndexIVF::search() [1], 200,  27.977051, 83.068115
+
+STATS:IndexIVF::search() [1], 200,  30.446045, 83.104004
+
+STATS:IndexIVF::search() [1], 200,  29.253174, 83.180176
+
+STATS:IndexIVF::search() [1], 200,  30.581055, 83.385010
+
+STATS:IndexIVF::search() [1], 200,  29.587158, 83.458984
+
+STATS:IndexIVF::search() [1], 200,  28.520996, 83.356934
+
+STATS:IndexIVF::search() [1], 200,  27.939941, 83.567871
+
+STATS:IndexIVF::search() [1], 200,  30.267090, 83.608154
+
+STATS:IndexIVF::search() [1], 200,  29.596924, 83.517090
+
+STATS:IndexIVF::search() [1], 200,  27.924805, 83.668945
+
+STATS:IndexIVF::search() [1], 200,  29.563965, 83.649902
+
+STATS:IndexIVF::search() [1], 200,  28.101807, 82.036865
+
+STATS:IndexIVF::search() [1], 200,  28.574951, 83.660156
+
+STATS:IndexIVF::search() [1], 200,  28.047119, 83.774170
+
+STATS:IndexIVF::search() [1], 200,  27.968018, 83.950928
+
+STATS:IndexIVF::search() [1], 200,  29.575195, 83.905029
+
+STATS:IndexIVF::search() [1], 200,  27.961914, 84.147949
+
+STATS:IndexIVF::search() [1], 200,  30.054932, 83.869873
+
+STATS:IndexIVF::search() [1], 200,  29.443848, 83.991943
+
+STATS:IndexIVF::search() [1], 200,  29.931152, 84.257080
+
+STATS:IndexIVF::search() [1], 200,  30.084961, 84.146973
+
+STATS:IndexIVF::search() [1], 200,  29.612061, 84.183105
+
+STATS:IndexIVF::search() [1], 200,  30.177979, 84.314209
+
+STATS:IndexIVF::search() [1], 200,  29.591064, 84.480957
+
+STATS:IndexIVF::search() [1], 200,  30.320068, 84.623047
+
+STATS:IndexIVF::search() [1], 200,  29.541016, 84.479980
+
+STATS:IndexIVF::search() [1], 200,  29.444824, 84.531982
+
+STATS:IndexIVF::search() [1], 200,  30.160156, 84.670166
+
+STATS:IndexIVF::search() [1], 200,  30.167969, 84.701172
+
+STATS:IndexIVF::search() [1], 200,  30.271973, 84.811035
+
+STATS:IndexIVF::search() [1], 200,  29.934814, 84.604004
+
+STATS:IndexIVF::search() [1], 200,  29.644043, 84.807129
+
+STATS:IndexIVF::search() [1], 200,  30.151123, 84.864014
+
+STATS:IndexIVF::search() [1], 200,  29.030029, 84.871094
+
+STATS:IndexIVF::search() [1], 200,  27.481934, 84.863037
+
+STATS:IndexIVF::search() [1], 200,  29.572998, 85.197998
+
+STATS:IndexIVF::search() [1], 200,  28.251953, 84.886963
+
+STATS:IndexIVF::search() [1], 200,  29.569092, 85.131104
+
+STATS:IndexIVF::search() [1], 200,  28.065918, 85.315918
+
+STATS:IndexIVF::search() [1], 200,  30.562988, 85.276855
+
+STATS:IndexIVF::search() [1], 200,  30.403076, 85.365967
+
+STATS:IndexIVF::search() [1], 200,  30.031006, 85.486816
+
+STATS:IndexIVF::search() [1], 200,  28.998779, 85.451904
+
+STATS:IndexIVF::search() [1], 200,  30.479980, 85.528076
+
+STATS:IndexIVF::search() [1], 200,  29.533936, 85.577881
+
+STATS:IndexIVF::search() [1], 200,  29.743896, 85.493896
+
+STATS:IndexIVF::search() [1], 200,  29.849854, 85.666992
+
+STATS:IndexIVF::search() [1], 200,  29.414062, 85.651123
+
+STATS:IndexIVF::search() [1], 200,  29.939941, 85.974854
+
+STATS:IndexIVF::search() [1], 200,  30.194092, 85.975098
+
+STATS:IndexIVF::search() [1], 200,  27.315918, 83.212891
+
+STATS:IndexIVF::search() [1], 200,  30.393066, 85.927979
+
+STATS:IndexIVF::search() [1], 200,  30.201172, 86.014160
+
+STATS:IndexIVF::search() [1], 200,  30.041016, 85.912109
+
+STATS:IndexIVF::search() [1], 200,  28.365967, 85.902832
+
+STATS:IndexIVF::search() [1], 200,  28.426025, 86.198975
+
+STATS:IndexIVF::search() [1], 200,  29.568848, 86.221924
+
+STATS:IndexIVF::search() [1], 200,  29.101074, 86.468018
+
+STATS:IndexIVF::search() [1], 200,  29.938232, 86.467041
+
+STATS:IndexIVF::search() [1], 200,  30.290039, 86.544189
+
+STATS:IndexIVF::search() [1], 200,  30.394043, 86.378174
+
+STATS:IndexIVF::search() [1], 200,  30.242188, 86.707031
+
+STATS:IndexIVF::search() [1], 200,  29.614990, 86.800049
+
+STATS:IndexIVF::search() [1], 200,  29.670898, 86.575928
+
+STATS:IndexIVF::search() [1], 200,  30.306152, 86.845215
+
+STATS:IndexIVF::search() [1], 200,  30.236084, 86.921143
+
+STATS:IndexIVF::search() [1], 200,  30.162109, 86.906982
+
+STATS:IndexIVF::search() [1], 200,  29.378906, 85.606934
+
+STATS:IndexIVF::search() [1], 200,  29.635010, 87.016113
+
+STATS:IndexIVF::search() [1], 200,  29.812012, 87.147949
+
+STATS:IndexIVF::search() [1], 200,  27.892822, 87.245850
+
+STATS:IndexIVF::search() [1], 200,  30.192139, 87.208008
+
+STATS:IndexIVF::search() [1], 200,  30.135986, 87.198975
+
+STATS:IndexIVF::search() [1], 200,  30.068115, 87.273926
+
+STATS:IndexIVF::search() [1], 200,  29.554199, 87.406982
+
+STATS:IndexIVF::search() [1], 200,  29.236084, 87.515137
+
+STATS:IndexIVF::search() [1], 200,  29.752930, 87.410889
+
+STATS:IndexIVF::search() [1], 200,  29.052979, 87.447998
+
+STATS:IndexIVF::search() [1], 200,  29.720947, 87.385010
+
+STATS:IndexIVF::search() [1], 200,  36.784912, 87.556885
+
+STATS:IndexIVF::search() [1], 200,  30.087158, 87.518066
+
+STATS:IndexIVF::search() [1], 200,  30.265137, 87.729004
+
+STATS:IndexIVF::search() [1], 200,  29.638184, 86.926025
+
+STATS:IndexIVF::search() [1], 200,  27.843018, 87.876953
+
+STATS:IndexIVF::search() [1], 200,  29.391113, 87.836914
+
+STATS:IndexIVF::search() [1], 200,  29.705078, 87.942139
+
+STATS:IndexIVF::search() [1], 200,  29.976074, 87.836914
+
+STATS:IndexIVF::search() [1], 200,  29.505859, 87.948975
+
+STATS:IndexIVF::search() [1], 200,  30.183838, 88.072021
+
+STATS:IndexIVF::search() [1], 200,  29.892090, 88.109131
+
+STATS:IndexIVF::search() [1], 200,  30.470947, 88.056885
+
+STATS:IndexIVF::search() [1], 200,  27.546875, 88.164795
+
+STATS:IndexIVF::search() [1], 200,  29.573975, 88.319824
+
+STATS:IndexIVF::search() [1], 200,  29.354980, 88.370117
+
+STATS:IndexIVF::search() [1], 200,  30.487061, 88.537109
+
+STATS:IndexIVF::search() [1], 200,  36.485840, 88.691895
+
+STATS:IndexIVF::search() [1], 200,  30.334961, 88.609863
+
+STATS:IndexIVF::search() [1], 200,  30.197998, 88.648193
+
+STATS:IndexIVF::search() [1], 200,  30.735107, 89.633057
+
+STATS:IndexIVF::search() [1], 200,  30.005859, 89.549805
+
+STATS:IndexIVF::search() [1], 200,  29.513916, 89.804932
+
+STATS:IndexIVF::search() [1], 200,  39.104980, 90.424072
+
+STATS:IndexIVF::search() [1], 200,  30.231201, 90.491211
+
+STATS:IndexIVF::search() [1], 200,  30.024170, 90.476074
+
+STATS:IndexIVF::search() [1], 200,  30.129150, 90.691162
+
+STATS:IndexIVF::search() [1], 200,  30.418945, 90.567871
+
+STATS:IndexIVF::search() [1], 200,  30.444092, 91.053955
+
+STATS:IndexIVF::search() [1], 200,  27.265869, 91.349854
+
+STATS:IndexIVF::search() [1], 200,  29.811035, 91.233887
+
+STATS:IndexIVF::search() [1], 200,  39.775879, 91.497803
+
+STATS:IndexIVF::search() [1], 200,  39.702148, 92.306152
+
+STATS:IndexIVF::search() [1], 200,  40.229004, 92.433105
+
+STATS:IndexIVF::search() [1], 200,  30.527100, 95.001953
+
+STATS:IndexIVF::search() [1], 200,  29.701172, 95.604980
+
+STATS:IndexIVF::search() [1], 200,  28.031982, 95.894043
+
+STATS:IndexIVF::search() [1], 200,  30.358154, 96.322998
+
+STATS:IndexIVF::search() [1], 200,  40.529053, 92.472900
+
+STATS:IndexIVF::search() [1], 200,  41.096191, 92.471191
+
+STATS:IndexIVF::search() [1], 200,  40.760010, 92.676025
+
+STATS:IndexIVF::search() [1], 200,  30.253174, 92.664062
+
+STATS:IndexIVF::search() [1], 200,  29.770020, 84.273926
+
+STATS:IndexIVF::search() [1], 200,  30.333984, 93.805908
+
+STATS:IndexIVF::search() [1], 200,  28.085938, 85.954834
+
+STATS:IndexIVF::search() [1], 200,  28.135986, 94.735107
+
+STATS:IndexIVF::search() [1], 200,  30.251953, 96.914062
+
+STATS:IndexIVF::search() [1], 200,  41.620850, 96.875977
+
+STATS:IndexIVF::search() [1], 200,  30.215088, 87.729980
+
+STATS:IndexIVF::search() [1], 200,  29.849121, 97.752930
+
+STATS:IndexIVF::search() [1], 200,  30.044189, 98.489990
+
+STATS:IndexIVF::search() [1], 200,  30.350098, 98.822998
+
+STATS:IndexIVF::search() [1], 200,  30.540039, 98.701904
+
+STATS:IndexIVF::search() [1], 200,  30.433105, 99.062012
+
+STATS:IndexIVF::search() [1], 200,  42.215088, 94.804199
+
+STATS:IndexIVF::search() [1], 200,  29.873047, 99.348877
+
+STATS:IndexIVF::search() [1], 200,  38.803955, 99.575928
+
+STATS:IndexIVF::search() [1], 200,  30.509033, 99.545898
+
+STATS:IndexIVF::search() [1], 200,  29.743896, 99.497803
+
+STATS:IndexIVF::search() [1], 200,  29.492188, 99.801025
+
+STATS:IndexIVF::search() [1], 200,  30.294189, 100.551025
+
+STATS:IndexIVF::search() [1], 200,  30.068115, 100.706055
+
+STATS:IndexIVF::search() [1], 200,  30.235107, 100.746094
+
+STATS:IndexIVF::search() [1], 200,  29.709961, 101.034912
+
+STATS:IndexIVF::search() [1], 200,  41.477051, 103.105957
+
+STATS:IndexIVF::search() [1], 200,  41.179932, 103.765869
+
+STATS:IndexIVF::search() [1], 200,  39.812012, 104.284180
+
+STATS:IndexIVF::search() [1], 200,  27.221924, 104.365967
+
+STATS:IndexIVF::search() [1], 200,  27.952148, 104.224121
+
+STATS:IndexIVF::search() [1], 200,  40.316162, 104.783936
+
+STATS:IndexIVF::search() [1], 200,  39.683838, 105.120850
+
+STATS:IndexIVF::search() [1], 200,  43.072998, 106.595947
+
+STATS:IndexIVF::search() [1], 200,  30.189941, 106.539795
+
+STATS:IndexIVF::search() [1], 200,  30.297119, 106.739014
+
+STATS:IndexIVF::search() [1], 200,  29.693848, 106.805908
+
+STATS:IndexIVF::search() [1], 200,  30.129883, 107.169922
+
+STATS:IndexIVF::search() [1], 200,  30.479980, 107.156982
+
+STATS:IndexIVF::search() [1], 200,  30.495850, 107.201904
+
+STATS:IndexIVF::search() [1], 200,  41.728027, 107.583984
+
+STATS:IndexIVF::search() [1], 200,  30.480957, 107.501953
+
+STATS:IndexIVF::search() [1], 200,  42.229980, 107.831055
+
+STATS:IndexIVF::search() [1], 200,  38.322021, 108.211914
+
+STATS:IndexIVF::search() [1], 200,  29.439941, 108.003906
+
+STATS:IndexIVF::search() [1], 200,  29.742920, 108.585938
+
+STATS:IndexIVF::search() [1], 200,  30.574951, 108.803955
+
+STATS:IndexIVF::search() [1], 200,  46.735107, 109.354980
+
+STATS:IndexIVF::search() [1], 200,  30.627930, 110.261963
+
+STATS:IndexIVF::search() [1], 200,  41.529785, 110.578857
+
+STATS:IndexIVF::search() [1], 200,  30.447021, 110.959229
+
+STATS:IndexIVF::search() [1], 200,  51.305908, 111.645020
+
+STATS:IndexIVF::search() [1], 200,  29.616943, 113.005859
+
+STATS:IndexIVF::search() [1], 200,  51.613037, 120.012207
+
+STATS:IndexIVF::search() [1], 200,  30.477051, 120.571045
+ perf 0.000 t 0.121 (1 run) 
+  1/500: cno=779 nprobe=2048,ht=256 bounds [perf<=1.000 t>=0.121] 
+STATS:IndexIVF::search() [1], 200,  78.054932, 10839.113037
+
+STATS:IndexIVF::search() [1], 200,  73.165039, 10942.017090
+
+STATS:IndexIVF::search() [1], 200,  75.197021, 10942.363037
+
+STATS:IndexIVF::search() [1], 200,  73.482178, 10961.697998
+
+STATS:IndexIVF::search() [1], 200,  77.944092, 11007.343994
+
+STATS:IndexIVF::search() [1], 200,  77.445068, 11024.600098
+
+STATS:IndexIVF::search() [1], 200,  77.291992, 11078.862061
+
+STATS:IndexIVF::search() [1], 200,  78.791992, 11126.025879
+
+STATS:IndexIVF::search() [1], 200,  68.772949, 11161.718994
+
+STATS:IndexIVF::search() [1], 200,  77.267090, 11185.081055
+
+STATS:IndexIVF::search() [1], 200,  77.953857, 11213.301025
+
+STATS:IndexIVF::search() [1], 200,  78.074951, 11295.875977
+
+STATS:IndexIVF::search() [1], 200,  67.821045, 11394.687012
+
+STATS:IndexIVF::search() [1], 200,  68.292969, 11442.063965
+
+STATS:IndexIVF::search() [1], 200,  71.288086, 11487.477051
+
+STATS:IndexIVF::search() [1], 200,  167.550049, 11497.624023
+
+STATS:IndexIVF::search() [1], 200,  71.332031, 11523.299072
+
+STATS:IndexIVF::search() [1], 200,  77.806885, 11533.811035
+
+STATS:IndexIVF::search() [1], 200,  127.492188, 11596.704102
+
+STATS:IndexIVF::search() [1], 200,  77.722900, 11712.307861
+
+STATS:IndexIVF::search() [1], 200,  117.351074, 11786.104980
+
+STATS:IndexIVF::search() [1], 200,  141.255859, 11864.020020
+
+STATS:IndexIVF::search() [1], 200,  129.698975, 12082.270996
+
+STATS:IndexIVF::search() [1], 200,  75.604980, 12168.237793
+
+STATS:IndexIVF::search() [1], 200,  83.806885, 12173.037842
+
+STATS:IndexIVF::search() [1], 200,  77.656982, 12187.305908
+
+STATS:IndexIVF::search() [1], 200,  93.759033, 12219.140137
+
+STATS:IndexIVF::search() [1], 200,  98.319824, 12219.155029
+
+STATS:IndexIVF::search() [1], 200,  98.577881, 12234.726074
+
+STATS:IndexIVF::search() [1], 200,  98.306152, 12237.402100
+
+STATS:IndexIVF::search() [1], 200,  98.181885, 12247.771973
+
+STATS:IndexIVF::search() [1], 200,  98.452148, 12299.563965
+
+STATS:IndexIVF::search() [1], 200,  167.784912, 12342.115967
+
+STATS:IndexIVF::search() [1], 200,  97.975098, 12358.489014
+
+STATS:IndexIVF::search() [1], 200,  86.429932, 12385.115967
+
+STATS:IndexIVF::search() [1], 200,  96.374023, 12391.613037
+
+STATS:IndexIVF::search() [1], 200,  93.869141, 12394.086914
+
+STATS:IndexIVF::search() [1], 200,  97.811035, 12397.898193
+
+STATS:IndexIVF::search() [1], 200,  98.478027, 12398.034180
+
+STATS:IndexIVF::search() [1], 200,  98.121094, 12402.530029
+
+STATS:IndexIVF::search() [1], 200,  96.665039, 12408.457031
+
+STATS:IndexIVF::search() [1], 200,  97.776123, 12410.400146
+
+STATS:IndexIVF::search() [1], 200,  97.799072, 12412.372070
+
+STATS:IndexIVF::search() [1], 200,  97.014893, 12411.393066
+
+STATS:IndexIVF::search() [1], 200,  99.343018, 12414.573975
+
+STATS:IndexIVF::search() [1], 200,  98.220947, 12419.656982
+
+STATS:IndexIVF::search() [1], 200,  99.215820, 12437.093994
+
+STATS:IndexIVF::search() [1], 200,  98.926025, 12443.323975
+
+STATS:IndexIVF::search() [1], 200,  141.471924, 12472.816895
+
+STATS:IndexIVF::search() [1], 200,  96.729004, 12476.783936
+
+STATS:IndexIVF::search() [1], 200,  93.496826, 12485.689941
+
+STATS:IndexIVF::search() [1], 200,  182.750977, 12500.052979
+
+STATS:IndexIVF::search() [1], 200,  97.923096, 12502.567139
+
+STATS:IndexIVF::search() [1], 200,  76.811035, 12513.822998
+
+STATS:IndexIVF::search() [1], 200,  99.500977, 12515.001953
+
+STATS:IndexIVF::search() [1], 200,  99.585938, 12519.922852
+
+STATS:IndexIVF::search() [1], 200,  181.854004, 12529.359863
+
+STATS:IndexIVF::search() [1], 200,  167.641846, 12532.803955
+
+STATS:IndexIVF::search() [1], 200,  171.083984, 12538.409912
+
+STATS:IndexIVF::search() [1], 200,  99.160156, 12545.569092
+
+STATS:IndexIVF::search() [1], 200,  129.593994, 12557.376953
+
+STATS:IndexIVF::search() [1], 200,  96.948975, 12612.906982
+
+STATS:IndexIVF::search() [1], 200,  97.834961, 12612.586914
+
+STATS:IndexIVF::search() [1], 200,  85.756836, 12622.484863
+
+STATS:IndexIVF::search() [1], 200,  99.151123, 12625.449951
+
+STATS:IndexIVF::search() [1], 200,  98.606934, 12626.724121
+
+STATS:IndexIVF::search() [1], 200,  152.095947, 12631.269775
+
+STATS:IndexIVF::search() [1], 200,  86.359863, 12636.710938
+
+STATS:IndexIVF::search() [1], 200,  86.507080, 12637.192871
+
+STATS:IndexIVF::search() [1], 200,  98.974854, 12669.448975
+
+STATS:IndexIVF::search() [1], 200,  99.138916, 12681.802002
+
+STATS:IndexIVF::search() [1], 200,  86.309082, 12698.021973
+
+STATS:IndexIVF::search() [1], 200,  100.172852, 12702.579834
+
+STATS:IndexIVF::search() [1], 200,  152.426025, 12705.553955
+
+STATS:IndexIVF::search() [1], 200,  99.492920, 12712.281006
+
+STATS:IndexIVF::search() [1], 200,  98.364990, 12716.047119
+
+STATS:IndexIVF::search() [1], 200,  97.680908, 12714.573975
+
+STATS:IndexIVF::search() [1], 200,  87.202881, 12725.096924
+
+STATS:IndexIVF::search() [1], 200,  93.765137, 12731.121094
+
+STATS:IndexIVF::search() [1], 200,  98.636963, 12752.218994
+
+STATS:IndexIVF::search() [1], 200,  98.289795, 12786.608887
+
+STATS:IndexIVF::search() [1], 200,  175.607910, 12793.094971
+
+STATS:IndexIVF::search() [1], 200,  167.623047, 12805.807129
+
+STATS:IndexIVF::search() [1], 200,  98.704102, 12833.262939
+
+STATS:IndexIVF::search() [1], 200,  174.382080, 12839.967041
+
+STATS:IndexIVF::search() [1], 200,  99.555176, 12849.541016
+
+STATS:IndexIVF::search() [1], 200,  98.198975, 12862.870850
+
+STATS:IndexIVF::search() [1], 200,  97.732910, 12863.830811
+
+STATS:IndexIVF::search() [1], 200,  98.137939, 12866.103027
+
+STATS:IndexIVF::search() [1], 200,  99.812012, 12872.277100
+
+STATS:IndexIVF::search() [1], 200,  198.075928, 12880.489990
+
+STATS:IndexIVF::search() [1], 200,  96.616943, 12883.864990
+
+STATS:IndexIVF::search() [1], 200,  149.571777, 12887.023926
+
+STATS:IndexIVF::search() [1], 200,  151.225830, 12907.361816
+
+STATS:IndexIVF::search() [1], 200,  100.574951, 12912.226074
+
+STATS:IndexIVF::search() [1], 200,  96.937988, 12915.931885
+
+STATS:IndexIVF::search() [1], 200,  99.395996, 12930.034180
+
+STATS:IndexIVF::search() [1], 200,  92.430908, 12946.286133
+
+STATS:IndexIVF::search() [1], 200,  98.847168, 12952.520020
+
+STATS:IndexIVF::search() [1], 200,  158.268066, 12952.833008
+
+STATS:IndexIVF::search() [1], 200,  87.379150, 12964.935059
+
+STATS:IndexIVF::search() [1], 200,  176.925049, 12968.723145
+
+STATS:IndexIVF::search() [1], 200,  96.937988, 12970.759033
+
+STATS:IndexIVF::search() [1], 200,  100.657959, 12973.885010
+
+STATS:IndexIVF::search() [1], 200,  99.707031, 12976.270996
+
+STATS:IndexIVF::search() [1], 200,  96.886963, 12983.438965
+
+STATS:IndexIVF::search() [1], 200,  92.174072, 13001.989990
+
+STATS:IndexIVF::search() [1], 200,  86.552979, 13033.903076
+
+STATS:IndexIVF::search() [1], 200,  99.531006, 13045.143066
+
+STATS:IndexIVF::search() [1], 200,  97.955078, 13043.857178
+
+STATS:IndexIVF::search() [1], 200,  94.202148, 13062.596191
+
+STATS:IndexIVF::search() [1], 200,  91.048096, 13073.077148
+
+STATS:IndexIVF::search() [1], 200,  89.088867, 13113.052002
+
+STATS:IndexIVF::search() [1], 200,  100.440186, 13121.297119
+
+STATS:IndexIVF::search() [1], 200,  100.594971, 13154.759033
+
+STATS:IndexIVF::search() [1], 200,  97.404053, 13184.759033
+
+STATS:IndexIVF::search() [1], 200,  98.075928, 13197.989990
+
+STATS:IndexIVF::search() [1], 200,  99.553955, 13205.947998
+
+STATS:IndexIVF::search() [1], 200,  97.591064, 13222.604980
+
+STATS:IndexIVF::search() [1], 200,  99.242920, 13229.729980
+
+STATS:IndexIVF::search() [1], 200,  154.238037, 13369.766846
+
+STATS:IndexIVF::search() [1], 200,  102.174072, 13376.656982
+
+STATS:IndexIVF::search() [1], 200,  98.339111, 13564.385986
+
+STATS:IndexIVF::search() [1], 200,  95.648193, 13670.061035
+
+STATS:IndexIVF::search() [1], 200,  97.968018, 13819.758789
+
+STATS:IndexIVF::search() [1], 200,  96.938232, 13856.275146
+
+STATS:IndexIVF::search() [1], 200,  160.937988, 13964.690918
+
+STATS:IndexIVF::search() [1], 200,  102.057861, 14035.639893
+
+STATS:IndexIVF::search() [1], 200,  89.551025, 14119.710938
+
+STATS:IndexIVF::search() [1], 200,  98.410889, 14201.750977
+
+STATS:IndexIVF::search() [1], 200,  102.199951, 14202.408936
+
+STATS:IndexIVF::search() [1], 200,  98.780029, 14237.484131
+
+STATS:IndexIVF::search() [1], 200,  104.055908, 14318.354980
+
+STATS:IndexIVF::search() [1], 200,  180.354004, 14451.125977
+
+STATS:IndexIVF::search() [1], 200,  86.604980, 14465.678955
+
+STATS:IndexIVF::search() [1], 200,  102.272949, 14476.391846
+
+STATS:IndexIVF::search() [1], 200,  101.983154, 14491.238037
+
+STATS:IndexIVF::search() [1], 200,  102.417969, 14743.912842
+
+STATS:IndexIVF::search() [1], 200,  102.140137, 14750.554199
+
+STATS:IndexIVF::search() [1], 200,  93.041016, 14757.734863
+
+STATS:IndexIVF::search() [1], 200,  101.908936, 14842.490967
+
+STATS:IndexIVF::search() [1], 200,  103.091064, 15107.934082
+
+STATS:IndexIVF::search() [1], 200,  90.469971, 15141.287842
+
+STATS:IndexIVF::search() [1], 200,  102.202881, 15153.718994
+
+STATS:IndexIVF::search() [1], 200,  98.179199, 15155.585205
+
+STATS:IndexIVF::search() [1], 200,  150.923828, 15212.910889
+
+STATS:IndexIVF::search() [1], 200,  101.503906, 15218.733887
+
+STATS:IndexIVF::search() [1], 200,  102.401855, 15269.130859
+
+STATS:IndexIVF::search() [1], 200,  102.177979, 15278.544189
+
+STATS:IndexIVF::search() [1], 200,  167.645020, 15297.895020
+
+STATS:IndexIVF::search() [1], 200,  175.048096, 15615.291016
+
+STATS:IndexIVF::search() [1], 200,  180.277832, 15774.120850
+
+STATS:IndexIVF::search() [1], 200,  101.721191, 15789.903076
+
+STATS:IndexIVF::search() [1], 200,  87.213135, 15800.081055
+
+STATS:IndexIVF::search() [1], 200,  101.655029, 15814.147949
+
+STATS:IndexIVF::search() [1], 200,  158.720947, 15889.949951
+
+STATS:IndexIVF::search() [1], 200,  102.077148, 15909.310059
+
+STATS:IndexIVF::search() [1], 200,  128.230957, 15969.324951
+
+STATS:IndexIVF::search() [1], 200,  101.210938, 16004.838867
+
+STATS:IndexIVF::search() [1], 200,  104.500000, 16011.635010
+
+STATS:IndexIVF::search() [1], 200,  100.405029, 16065.506104
+
+STATS:IndexIVF::search() [1], 200,  98.829102, 16149.669922
+
+STATS:IndexIVF::search() [1], 200,  161.854980, 16192.097900
+
+STATS:IndexIVF::search() [1], 200,  102.147949, 16231.262939
+
+STATS:IndexIVF::search() [1], 200,  187.388184, 16279.785156
+
+STATS:IndexIVF::search() [1], 200,  104.005859, 16336.781006
+
+STATS:IndexIVF::search() [1], 200,  179.748047, 16341.198975
+
+STATS:IndexIVF::search() [1], 200,  157.989990, 16347.644043
+
+STATS:IndexIVF::search() [1], 200,  101.508057, 16434.343994
+
+STATS:IndexIVF::search() [1], 200,  89.950928, 16442.274902
+
+STATS:IndexIVF::search() [1], 200,  159.147949, 16456.718018
+
+STATS:IndexIVF::search() [1], 200,  158.914062, 16496.890137
+
+STATS:IndexIVF::search() [1], 200,  102.089844, 16498.844971
+
+STATS:IndexIVF::search() [1], 200,  101.902100, 16538.796143
+
+STATS:IndexIVF::search() [1], 200,  163.017822, 16564.969971
+
+STATS:IndexIVF::search() [1], 200,  101.581055, 16610.171143
+
+STATS:IndexIVF::search() [1], 200,  177.396973, 16676.048096
+
+STATS:IndexIVF::search() [1], 200,  174.762939, 16735.864014
+
+STATS:IndexIVF::search() [1], 200,  174.970947, 16744.761963
+
+STATS:IndexIVF::search() [1], 200,  177.111084, 16752.632080
+
+STATS:IndexIVF::search() [1], 200,  97.760010, 16762.714844
+
+STATS:IndexIVF::search() [1], 200,  158.896973, 16765.622070
+
+STATS:IndexIVF::search() [1], 200,  103.889160, 16770.683105
+
+STATS:IndexIVF::search() [1], 200,  140.379150, 16806.766113
+
+STATS:IndexIVF::search() [1], 200,  176.395020, 16817.124023
+
+STATS:IndexIVF::search() [1], 200,  201.471924, 16899.858887
+
+STATS:IndexIVF::search() [1], 200,  101.718994, 16898.074951
+
+STATS:IndexIVF::search() [1], 200,  97.427002, 16930.476074
+
+STATS:IndexIVF::search() [1], 200,  177.085938, 16938.945068
+
+STATS:IndexIVF::search() [1], 200,  174.552979, 17084.231934
+
+STATS:IndexIVF::search() [1], 200,  100.487061, 17151.481934
+
+STATS:IndexIVF::search() [1], 200,  159.444092, 17471.193115
+ perf 0.000 t 17.492 (1 run) 
+  2/500: cno=490 nprobe=1024,ht=82 bounds [perf<=0.000 t>=0.121] skip
+  3/500: cno=650 nprobe=4,ht=110 bounds [perf<=0.000 t>=0.121] skip
+  4/500: cno=417 nprobe=512,ht=70 bounds [perf<=0.000 t>=0.121] skip
+  5/500: cno=294 nprobe=64,ht=50 bounds [perf<=0.000 t>=0.121] skip
+  6/500: cno=445 nprobe=2,ht=76 bounds [perf<=0.000 t>=0.121] skip
+  7/500: cno=515 nprobe=2048,ht=86 bounds [perf<=0.000 t>=0.121] skip
+  8/500: cno=647 nprobe=2048,ht=108 bounds [perf<=0.000 t>=0.121] skip
+  9/500: cno=221 nprobe=32,ht=38 bounds [perf<=0.000 t>=0.121] skip
+  10/500: cno=114 nprobe=64,ht=20 bounds [perf<=0.000 t>=0.121] skip
+  11/500: cno=144 nprobe=1,ht=26 bounds [perf<=0.000 t>=0.121] skip
+  12/500: cno=290 nprobe=4,ht=50 bounds [perf<=0.000 t>=0.121] skip
+  13/500: cno=246 nprobe=64,ht=42 bounds [perf<=0.000 t>=0.121] skip
+  14/500: cno=25 nprobe=2,ht=6 bounds [perf<=0.000 t>=0.121] skip
+  15/500: cno=81 nprobe=512,ht=14 bounds [perf<=0.000 t>=0.121] skip
+  16/500: cno=570 nprobe=64,ht=96 bounds [perf<=0.000 t>=0.121] skip
+  17/500: cno=173 nprobe=32,ht=30 bounds [perf<=0.000 t>=0.121] skip
+  18/500: cno=23 nprobe=2048,ht=4 bounds [perf<=0.000 t>=0.121] skip
+  19/500: cno=397 nprobe=2,ht=68 bounds [perf<=0.000 t>=0.121] skip
+  20/500: cno=8 nprobe=256,ht=2 bounds [perf<=0.000 t>=0.121] skip
+  21/500: cno=233 nprobe=32,ht=40 bounds [perf<=0.000 t>=0.121] skip
+  22/500: cno=355 nprobe=128,ht=60 bounds [perf<=0.000 t>=0.121] skip
+  23/500: cno=73 nprobe=2,ht=14 bounds [perf<=0.000 t>=0.121] skip
+  24/500: cno=263 nprobe=2048,ht=44 bounds [perf<=0.000 t>=0.121] skip
+  25/500: cno=508 nprobe=16,ht=86 bounds [perf<=0.000 t>=0.121] skip
+  26/500: cno=40 nprobe=16,ht=8 bounds [perf<=0.000 t>=0.121] skip
+  27/500: cno=314 nprobe=4,ht=54 bounds [perf<=0.000 t>=0.121] skip
+  28/500: cno=116 nprobe=256,ht=20 bounds [perf<=0.000 t>=0.121] skip
+  29/500: cno=704 nprobe=256,ht=118 bounds [perf<=0.000 t>=0.121] skip
+  30/500: cno=431 nprobe=2048,ht=72 bounds [perf<=0.000 t>=0.121] skip
+  31/500: cno=45 nprobe=512,ht=8 bounds [perf<=0.000 t>=0.121] skip
+  32/500: cno=762 nprobe=64,ht=128 bounds [perf<=0.000 t>=0.121] skip
+  33/500: cno=139 nprobe=128,ht=24 bounds [perf<=0.000 t>=0.121] skip
+  34/500: cno=187 nprobe=128,ht=32 bounds [perf<=0.000 t>=0.121] skip
+  35/500: cno=286 nprobe=1024,ht=48 bounds [perf<=0.000 t>=0.121] skip
+  36/500: cno=479 nprobe=2048,ht=80 bounds [perf<=0.000 t>=0.121] skip
+  37/500: cno=429 nprobe=512,ht=72 bounds [perf<=0.000 t>=0.121] skip
+  38/500: cno=69 nprobe=512,ht=12 bounds [perf<=0.000 t>=0.121] skip
+  39/500: cno=170 nprobe=4,ht=30 bounds [perf<=0.000 t>=0.121] skip
+  40/500: cno=185 nprobe=32,ht=32 bounds [perf<=0.000 t>=0.121] skip
+  41/500: cno=717 nprobe=512,ht=120 bounds [perf<=0.000 t>=0.121] skip
+  42/500: cno=134 nprobe=4,ht=24 bounds [perf<=0.000 t>=0.121] skip
+  43/500: cno=115 nprobe=128,ht=20 bounds [perf<=0.000 t>=0.121] skip
+  44/500: cno=203 nprobe=2048,ht=34 bounds [perf<=0.000 t>=0.121] skip
+  45/500: cno=495 nprobe=8,ht=84 bounds [perf<=0.000 t>=0.121] skip
+  46/500: cno=666 nprobe=64,ht=112 bounds [perf<=0.000 t>=0.121] skip
+  47/500: cno=430 nprobe=1024,ht=72 bounds [perf<=0.000 t>=0.121] skip
+  48/500: cno=4 nprobe=16,ht=2 bounds [perf<=0.000 t>=0.121] skip
+  49/500: cno=684 nprobe=1,ht=116 bounds [perf<=0.000 t>=0.121] skip
+  50/500: cno=426 nprobe=64,ht=72 bounds [perf<=0.000 t>=0.121] skip
+  51/500: cno=179 nprobe=2048,ht=30 bounds [perf<=0.000 t>=0.121] skip
+  52/500: cno=644 nprobe=256,ht=108 bounds [perf<=0.000 t>=0.121] skip
+  53/500: cno=130 nprobe=1024,ht=22 bounds [perf<=0.000 t>=0.121] skip
+  54/500: cno=638 nprobe=4,ht=108 bounds [perf<=0.000 t>=0.121] skip
+  55/500: cno=568 nprobe=16,ht=96 bounds [perf<=0.000 t>=0.121] skip
+  56/500: cno=289 nprobe=2,ht=50 bounds [perf<=0.000 t>=0.121] skip
+  57/500: cno=112 nprobe=16,ht=20 bounds [perf<=0.000 t>=0.121] skip
+  58/500: cno=509 nprobe=32,ht=86 bounds [perf<=0.000 t>=0.121] skip
+  59/500: cno=710 nprobe=4,ht=120 bounds [perf<=0.000 t>=0.121] skip
+  60/500: cno=386 nprobe=4,ht=66 bounds [perf<=0.000 t>=0.121] skip
+  61/500: cno=637 nprobe=2,ht=108 bounds [perf<=0.000 t>=0.121] skip
+  62/500: cno=383 nprobe=2048,ht=64 bounds [perf<=0.000 t>=0.121] skip
+  63/500: cno=43 nprobe=128,ht=8 bounds [perf<=0.000 t>=0.121] skip
+  64/500: cno=361 nprobe=2,ht=62 bounds [perf<=0.000 t>=0.121] skip
+  65/500: cno=567 nprobe=8,ht=96 bounds [perf<=0.000 t>=0.121] skip
+  66/500: cno=172 nprobe=16,ht=30 bounds [perf<=0.000 t>=0.121] skip
+  67/500: cno=91 nprobe=128,ht=16 bounds [perf<=0.000 t>=0.121] skip
+  68/500: cno=416 nprobe=256,ht=70 bounds [perf<=0.000 t>=0.121] skip
+  69/500: cno=576 nprobe=1,ht=98 bounds [perf<=0.000 t>=0.121] skip
+  70/500: cno=393 nprobe=512,ht=66 bounds [perf<=0.000 t>=0.121] skip
+  71/500: cno=150 nprobe=64,ht=26 bounds [perf<=0.000 t>=0.121] skip
+  72/500: cno=316 nprobe=16,ht=54 bounds [perf<=0.000 t>=0.121] skip
+  73/500: cno=32 nprobe=256,ht=6 bounds [perf<=0.000 t>=0.121] skip
+  74/500: cno=662 nprobe=4,ht=112 bounds [perf<=0.000 t>=0.121] skip
+  75/500: cno=303 nprobe=8,ht=52 bounds [perf<=0.000 t>=0.121] skip
+  76/500: cno=624 nprobe=1,ht=106 bounds [perf<=0.000 t>=0.121] skip
+  77/500: cno=109 nprobe=2,ht=20 bounds [perf<=0.000 t>=0.121] skip
+  78/500: cno=668 nprobe=256,ht=112 bounds [perf<=0.000 t>=0.121] skip
+  79/500: cno=66 nprobe=64,ht=12 bounds [perf<=0.000 t>=0.121] skip
+  80/500: cno=408 nprobe=1,ht=70 bounds [perf<=0.000 t>=0.121] skip
+  81/500: cno=377 nprobe=32,ht=64 bounds [perf<=0.000 t>=0.121] skip
+  82/500: cno=758 nprobe=4,ht=128 bounds [perf<=0.000 t>=0.121] skip
+  83/500: cno=518 nprobe=4,ht=88 bounds [perf<=0.000 t>=0.121] skip
+  84/500: cno=556 nprobe=16,ht=94 bounds [perf<=0.000 t>=0.121] skip
+  85/500: cno=83 nprobe=2048,ht=14 bounds [perf<=0.000 t>=0.121] skip
+  86/500: cno=261 nprobe=512,ht=44 bounds [perf<=0.000 t>=0.121] skip
+  87/500: cno=632 nprobe=256,ht=106 bounds [perf<=0.000 t>=0.121] skip
+  88/500: cno=16 nprobe=16,ht=4 bounds [perf<=0.000 t>=0.121] skip
+  89/500: cno=708 nprobe=1,ht=120 bounds [perf<=0.000 t>=0.121] skip
+  90/500: cno=513 nprobe=512,ht=86 bounds [perf<=0.000 t>=0.121] skip
+  91/500: cno=598 nprobe=1024,ht=100 bounds [perf<=0.000 t>=0.121] skip
+  92/500: cno=357 nprobe=512,ht=60 bounds [perf<=0.000 t>=0.121] skip
+  93/500: cno=620 nprobe=256,ht=104 bounds [perf<=0.000 t>=0.121] skip
+  94/500: cno=776 nprobe=256,ht=256 bounds [perf<=0.000 t>=0.121] skip
+  95/500: cno=255 nprobe=8,ht=44 bounds [perf<=0.000 t>=0.121] skip
+  96/500: cno=153 nprobe=512,ht=26 bounds [perf<=0.000 t>=0.121] skip
+  97/500: cno=502 nprobe=1024,ht=84 bounds [perf<=0.000 t>=0.121] skip
+  98/500: cno=757 nprobe=2,ht=128 bounds [perf<=0.000 t>=0.121] skip
+  99/500: cno=533 nprobe=32,ht=90 bounds [perf<=0.000 t>=0.121] skip
+  100/500: cno=10 nprobe=1024,ht=2 bounds [perf<=0.000 t>=0.121] skip
+  101/500: cno=492 nprobe=1,ht=84 bounds [perf<=0.000 t>=0.121] skip
+  102/500: cno=545 nprobe=32,ht=92 bounds [perf<=0.000 t>=0.121] skip
+  103/500: cno=749 nprobe=32,ht=126 bounds [perf<=0.000 t>=0.121] skip
+  104/500: cno=339 nprobe=8,ht=58 bounds [perf<=0.000 t>=0.121] skip
+  105/500: cno=17 nprobe=32,ht=4 bounds [perf<=0.000 t>=0.121] skip
+  106/500: cno=238 nprobe=1024,ht=40 bounds [perf<=0.000 t>=0.121] skip
+  107/500: cno=168 nprobe=1,ht=30 bounds [perf<=0.000 t>=0.121] skip
+  108/500: cno=26 nprobe=4,ht=6 bounds [perf<=0.000 t>=0.121] skip
+  109/500: cno=217 nprobe=2,ht=38 bounds [perf<=0.000 t>=0.121] skip
+  110/500: cno=575 nprobe=2048,ht=96 bounds [perf<=0.000 t>=0.121] skip
+  111/500: cno=161 nprobe=32,ht=28 bounds [perf<=0.000 t>=0.121] skip
+  112/500: cno=642 nprobe=64,ht=108 bounds [perf<=0.000 t>=0.121] skip
+  113/500: cno=213 nprobe=512,ht=36 bounds [perf<=0.000 t>=0.121] skip
+  114/500: cno=751 nprobe=128,ht=126 bounds [perf<=0.000 t>=0.121] skip
+  115/500: cno=641 nprobe=32,ht=108 bounds [perf<=0.000 t>=0.121] skip
+  116/500: cno=527 nprobe=2048,ht=88 bounds [perf<=0.000 t>=0.121] skip
+  117/500: cno=550 nprobe=1024,ht=92 bounds [perf<=0.000 t>=0.121] skip
+  118/500: cno=369 nprobe=512,ht=62 bounds [perf<=0.000 t>=0.121] skip
+  119/500: cno=122 nprobe=4,ht=22 bounds [perf<=0.000 t>=0.121] skip
+  120/500: cno=356 nprobe=256,ht=60 bounds [perf<=0.000 t>=0.121] skip
+  121/500: cno=419 nprobe=2048,ht=70 bounds [perf<=0.000 t>=0.121] skip
+  122/500: cno=292 nprobe=16,ht=50 bounds [perf<=0.000 t>=0.121] skip
+  123/500: cno=131 nprobe=2048,ht=22 bounds [perf<=0.000 t>=0.121] skip
+  124/500: cno=498 nprobe=64,ht=84 bounds [perf<=0.000 t>=0.121] skip
+  125/500: cno=771 nprobe=8,ht=256 bounds [perf<=0.000 t>=0.121] skip
+  126/500: cno=212 nprobe=256,ht=36 bounds [perf<=0.000 t>=0.121] skip
+  127/500: cno=317 nprobe=32,ht=54 bounds [perf<=0.000 t>=0.121] skip
+  128/500: cno=394 nprobe=1024,ht=66 bounds [perf<=0.000 t>=0.121] skip
+  129/500: cno=522 nprobe=64,ht=88 bounds [perf<=0.000 t>=0.121] skip
+  130/500: cno=30 nprobe=64,ht=6 bounds [perf<=0.000 t>=0.121] skip
+  131/500: cno=709 nprobe=2,ht=120 bounds [perf<=0.000 t>=0.121] skip
+  132/500: cno=604 nprobe=16,ht=102 bounds [perf<=0.000 t>=0.121] skip
+  133/500: cno=154 nprobe=1024,ht=26 bounds [perf<=0.000 t>=0.121] skip
+  134/500: cno=680 nprobe=256,ht=114 bounds [perf<=0.000 t>=0.121] skip
+  135/500: cno=767 nprobe=2048,ht=128 bounds [perf<=0.000 t>=0.121] skip
+  136/500: cno=660 nprobe=1,ht=112 bounds [perf<=0.000 t>=0.121] skip
+  137/500: cno=51 nprobe=8,ht=10 bounds [perf<=0.000 t>=0.121] skip
+  138/500: cno=278 nprobe=4,ht=48 bounds [perf<=0.000 t>=0.121] skip
+  139/500: cno=266 nprobe=4,ht=46 bounds [perf<=0.000 t>=0.121] skip
+  140/500: cno=544 nprobe=16,ht=92 bounds [perf<=0.000 t>=0.121] skip
+  141/500: cno=379 nprobe=128,ht=64 bounds [perf<=0.000 t>=0.121] skip
+  142/500: cno=657 nprobe=512,ht=110 bounds [perf<=0.000 t>=0.121] skip
+  143/500: cno=656 nprobe=256,ht=110 bounds [perf<=0.000 t>=0.121] skip
+  144/500: cno=262 nprobe=1024,ht=44 bounds [perf<=0.000 t>=0.121] skip
+  145/500: cno=268 nprobe=16,ht=46 bounds [perf<=0.000 t>=0.121] skip
+  146/500: cno=625 nprobe=2,ht=106 bounds [perf<=0.000 t>=0.121] skip
+  147/500: cno=284 nprobe=256,ht=48 bounds [perf<=0.000 t>=0.121] skip
+  148/500: cno=211 nprobe=128,ht=36 bounds [perf<=0.000 t>=0.121] skip
+  149/500: cno=735 nprobe=8,ht=124 bounds [perf<=0.000 t>=0.121] skip
+  150/500: cno=529 nprobe=2,ht=90 bounds [perf<=0.000 t>=0.121] skip
+  151/500: cno=235 nprobe=128,ht=40 bounds [perf<=0.000 t>=0.121] skip
+  152/500: cno=693 nprobe=512,ht=116 bounds [perf<=0.000 t>=0.121] skip
+  153/500: cno=220 nprobe=16,ht=38 bounds [perf<=0.000 t>=0.121] skip
+  154/500: cno=480 nprobe=1,ht=82 bounds [perf<=0.000 t>=0.121] skip
+  155/500: cno=49 nprobe=2,ht=10 bounds [perf<=0.000 t>=0.121] skip
+  156/500: cno=622 nprobe=1024,ht=104 bounds [perf<=0.000 t>=0.121] skip
+  157/500: cno=571 nprobe=128,ht=96 bounds [perf<=0.000 t>=0.121] skip
+  158/500: cno=373 nprobe=2,ht=64 bounds [perf<=0.000 t>=0.121] skip
+  159/500: cno=124 nprobe=16,ht=22 bounds [perf<=0.000 t>=0.121] skip
+  160/500: cno=340 nprobe=16,ht=58 bounds [perf<=0.000 t>=0.121] skip
+  161/500: cno=349 nprobe=2,ht=60 bounds [perf<=0.000 t>=0.121] skip
+  162/500: cno=602 nprobe=4,ht=102 bounds [perf<=0.000 t>=0.121] skip
+  163/500: cno=352 nprobe=16,ht=60 bounds [perf<=0.000 t>=0.121] skip
+  164/500: cno=611 nprobe=2048,ht=102 bounds [perf<=0.000 t>=0.121] skip
+  165/500: cno=359 nprobe=2048,ht=60 bounds [perf<=0.000 t>=0.121] skip
+  166/500: cno=366 nprobe=64,ht=62 bounds [perf<=0.000 t>=0.121] skip
+  167/500: cno=87 nprobe=8,ht=16 bounds [perf<=0.000 t>=0.121] skip
+  168/500: cno=94 nprobe=1024,ht=16 bounds [perf<=0.000 t>=0.121] skip
+  169/500: cno=14 nprobe=4,ht=4 bounds [perf<=0.000 t>=0.121] skip
+  170/500: cno=451 nprobe=128,ht=76 bounds [perf<=0.000 t>=0.121] skip
+  171/500: cno=328 nprobe=16,ht=56 bounds [perf<=0.000 t>=0.121] skip
+  172/500: cno=755 nprobe=2048,ht=126 bounds [perf<=0.000 t>=0.121] skip
+  173/500: cno=204 nprobe=1,ht=36 bounds [perf<=0.000 t>=0.121] skip
+  174/500: cno=392 nprobe=256,ht=66 bounds [perf<=0.000 t>=0.121] skip
+  175/500: cno=725 nprobe=32,ht=122 bounds [perf<=0.000 t>=0.121] skip
+  176/500: cno=305 nprobe=32,ht=52 bounds [perf<=0.000 t>=0.121] skip
+  177/500: cno=698 nprobe=4,ht=118 bounds [perf<=0.000 t>=0.121] skip
+  178/500: cno=588 nprobe=1,ht=100 bounds [perf<=0.000 t>=0.121] skip
+  179/500: cno=346 nprobe=1024,ht=58 bounds [perf<=0.000 t>=0.121] skip
+  180/500: cno=157 nprobe=2,ht=28 bounds [perf<=0.000 t>=0.121] skip
+  181/500: cno=331 nprobe=128,ht=56 bounds [perf<=0.000 t>=0.121] skip
+  182/500: cno=34 nprobe=1024,ht=6 bounds [perf<=0.000 t>=0.121] skip
+  183/500: cno=200 nprobe=256,ht=34 bounds [perf<=0.000 t>=0.121] skip
+  184/500: cno=273 nprobe=512,ht=46 bounds [perf<=0.000 t>=0.121] skip
+  185/500: cno=507 nprobe=8,ht=86 bounds [perf<=0.000 t>=0.121] skip
+  186/500: cno=166 nprobe=1024,ht=28 bounds [perf<=0.000 t>=0.121] skip
+  187/500: cno=80 nprobe=256,ht=14 bounds [perf<=0.000 t>=0.121] skip
+  188/500: cno=36 nprobe=1,ht=8 bounds [perf<=0.000 t>=0.121] skip
+  189/500: cno=209 nprobe=32,ht=36 bounds [perf<=0.000 t>=0.121] skip
+  190/500: cno=406 nprobe=1024,ht=68 bounds [perf<=0.000 t>=0.121] skip
+  191/500: cno=477 nprobe=512,ht=80 bounds [perf<=0.000 t>=0.121] skip
+  192/500: cno=227 nprobe=2048,ht=38 bounds [perf<=0.000 t>=0.121] skip
+  193/500: cno=720 nprobe=1,ht=122 bounds [perf<=0.000 t>=0.121] skip
+  194/500: cno=236 nprobe=256,ht=40 bounds [perf<=0.000 t>=0.121] skip
+  195/500: cno=401 nprobe=32,ht=68 bounds [perf<=0.000 t>=0.121] skip
+  196/500: cno=453 nprobe=512,ht=76 bounds [perf<=0.000 t>=0.121] skip
+  197/500: cno=573 nprobe=512,ht=96 bounds [perf<=0.000 t>=0.121] skip
+  198/500: cno=494 nprobe=4,ht=84 bounds [perf<=0.000 t>=0.121] skip
+  199/500: cno=455 nprobe=2048,ht=76 bounds [perf<=0.000 t>=0.121] skip
+  200/500: cno=582 nprobe=64,ht=98 bounds [perf<=0.000 t>=0.121] skip
+  201/500: cno=358 nprobe=1024,ht=60 bounds [perf<=0.000 t>=0.121] skip
+  202/500: cno=559 nprobe=128,ht=94 bounds [perf<=0.000 t>=0.121] skip
+  203/500: cno=329 nprobe=32,ht=56 bounds [perf<=0.000 t>=0.121] skip
+  204/500: cno=28 nprobe=16,ht=6 bounds [perf<=0.000 t>=0.121] skip
+  205/500: cno=205 nprobe=2,ht=36 bounds [perf<=0.000 t>=0.121] skip
+  206/500: cno=635 nprobe=2048,ht=106 bounds [perf<=0.000 t>=0.121] skip
+  207/500: cno=619 nprobe=128,ht=104 bounds [perf<=0.000 t>=0.121] skip
+  208/500: cno=62 nprobe=4,ht=12 bounds [perf<=0.000 t>=0.121] skip
+  209/500: cno=612 nprobe=1,ht=104 bounds [perf<=0.000 t>=0.121] skip
+  210/500: cno=128 nprobe=256,ht=22 bounds [perf<=0.000 t>=0.121] skip
+  211/500: cno=769 nprobe=2,ht=256 bounds [perf<=0.000 t>=0.121] skip
+  212/500: cno=191 nprobe=2048,ht=32 bounds [perf<=0.000 t>=0.121] skip
+  213/500: cno=714 nprobe=64,ht=120 bounds [perf<=0.000 t>=0.121] skip
+  214/500: cno=48 nprobe=1,ht=10 bounds [perf<=0.000 t>=0.121] skip
+  215/500: cno=146 nprobe=4,ht=26 bounds [perf<=0.000 t>=0.121] skip
+  216/500: cno=731 nprobe=2048,ht=122 bounds [perf<=0.000 t>=0.121] skip
+  217/500: cno=626 nprobe=4,ht=106 bounds [perf<=0.000 t>=0.121] skip
+  218/500: cno=326 nprobe=4,ht=56 bounds [perf<=0.000 t>=0.121] skip
+  219/500: cno=58 nprobe=1024,ht=10 bounds [perf<=0.000 t>=0.121] skip
+  220/500: cno=460 nprobe=16,ht=78 bounds [perf<=0.000 t>=0.121] skip
+  221/500: cno=208 nprobe=16,ht=36 bounds [perf<=0.000 t>=0.121] skip
+  222/500: cno=282 nprobe=64,ht=48 bounds [perf<=0.000 t>=0.121] skip
+  223/500: cno=50 nprobe=4,ht=10 bounds [perf<=0.000 t>=0.121] skip
+  224/500: cno=322 nprobe=1024,ht=54 bounds [perf<=0.000 t>=0.121] skip
+  225/500: cno=728 nprobe=256,ht=122 bounds [perf<=0.000 t>=0.121] skip
+  226/500: cno=674 nprobe=4,ht=114 bounds [perf<=0.000 t>=0.121] skip
+  227/500: cno=270 nprobe=64,ht=46 bounds [perf<=0.000 t>=0.121] skip
+  228/500: cno=271 nprobe=128,ht=46 bounds [perf<=0.000 t>=0.121] skip
+  229/500: cno=587 nprobe=2048,ht=98 bounds [perf<=0.000 t>=0.121] skip
+  230/500: cno=53 nprobe=32,ht=10 bounds [perf<=0.000 t>=0.121] skip
+  231/500: cno=9 nprobe=512,ht=2 bounds [perf<=0.000 t>=0.121] skip
+  232/500: cno=732 nprobe=1,ht=124 bounds [perf<=0.000 t>=0.121] skip
+  233/500: cno=639 nprobe=8,ht=108 bounds [perf<=0.000 t>=0.121] skip
+  234/500: cno=711 nprobe=8,ht=120 bounds [perf<=0.000 t>=0.121] skip
+  235/500: cno=484 nprobe=16,ht=82 bounds [perf<=0.000 t>=0.121] skip
+  236/500: cno=412 nprobe=16,ht=70 bounds [perf<=0.000 t>=0.121] skip
+  237/500: cno=300 nprobe=1,ht=52 bounds [perf<=0.000 t>=0.121] skip
+  238/500: cno=171 nprobe=8,ht=30 bounds [perf<=0.000 t>=0.121] skip
+  239/500: cno=435 nprobe=8,ht=74 bounds [perf<=0.000 t>=0.121] skip
+  240/500: cno=712 nprobe=16,ht=120 bounds [perf<=0.000 t>=0.121] skip
+  241/500: cno=676 nprobe=16,ht=114 bounds [perf<=0.000 t>=0.121] skip
+  242/500: cno=506 nprobe=4,ht=86 bounds [perf<=0.000 t>=0.121] skip
+  243/500: cno=448 nprobe=16,ht=76 bounds [perf<=0.000 t>=0.121] skip
+  244/500: cno=591 nprobe=8,ht=100 bounds [perf<=0.000 t>=0.121] skip
+  245/500: cno=256 nprobe=16,ht=44 bounds [perf<=0.000 t>=0.121] skip
+  246/500: cno=337 nprobe=2,ht=58 bounds [perf<=0.000 t>=0.121] skip
+  247/500: cno=86 nprobe=4,ht=16 bounds [perf<=0.000 t>=0.121] skip
+  248/500: cno=470 nprobe=4,ht=80 bounds [perf<=0.000 t>=0.121] skip
+  249/500: cno=775 nprobe=128,ht=256 bounds [perf<=0.000 t>=0.121] skip
+  250/500: cno=193 nprobe=2,ht=34 bounds [perf<=0.000 t>=0.121] skip
+  251/500: cno=457 nprobe=2,ht=78 bounds [perf<=0.000 t>=0.121] skip
+  252/500: cno=688 nprobe=16,ht=116 bounds [perf<=0.000 t>=0.121] skip
+  253/500: cno=511 nprobe=128,ht=86 bounds [perf<=0.000 t>=0.121] skip
+  254/500: cno=47 nprobe=2048,ht=8 bounds [perf<=0.000 t>=0.121] skip
+  255/500: cno=306 nprobe=64,ht=52 bounds [perf<=0.000 t>=0.121] skip
+  256/500: cno=648 nprobe=1,ht=110 bounds [perf<=0.000 t>=0.121] skip
+  257/500: cno=452 nprobe=256,ht=76 bounds [perf<=0.000 t>=0.121] skip
+  258/500: cno=201 nprobe=512,ht=34 bounds [perf<=0.000 t>=0.121] skip
+  259/500: cno=291 nprobe=8,ht=50 bounds [perf<=0.000 t>=0.121] skip
+  260/500: cno=362 nprobe=4,ht=62 bounds [perf<=0.000 t>=0.121] skip
+  261/500: cno=277 nprobe=2,ht=48 bounds [perf<=0.000 t>=0.121] skip
+  262/500: cno=59 nprobe=2048,ht=10 bounds [perf<=0.000 t>=0.121] skip
+  263/500: cno=462 nprobe=64,ht=78 bounds [perf<=0.000 t>=0.121] skip
+  264/500: cno=561 nprobe=512,ht=94 bounds [perf<=0.000 t>=0.121] skip
+  265/500: cno=64 nprobe=16,ht=12 bounds [perf<=0.000 t>=0.121] skip
+  266/500: cno=90 nprobe=64,ht=16 bounds [perf<=0.000 t>=0.121] skip
+  267/500: cno=390 nprobe=64,ht=66 bounds [perf<=0.000 t>=0.121] skip
+  268/500: cno=354 nprobe=64,ht=60 bounds [perf<=0.000 t>=0.121] skip
+  269/500: cno=503 nprobe=2048,ht=84 bounds [perf<=0.000 t>=0.121] skip
+  270/500: cno=463 nprobe=128,ht=78 bounds [perf<=0.000 t>=0.121] skip
+  271/500: cno=724 nprobe=16,ht=122 bounds [perf<=0.000 t>=0.121] skip
+  272/500: cno=230 nprobe=4,ht=40 bounds [perf<=0.000 t>=0.121] skip
+  273/500: cno=613 nprobe=2,ht=104 bounds [perf<=0.000 t>=0.121] skip
+  274/500: cno=106 nprobe=1024,ht=18 bounds [perf<=0.000 t>=0.121] skip
+  275/500: cno=375 nprobe=8,ht=64 bounds [perf<=0.000 t>=0.121] skip
+  276/500: cno=718 nprobe=1024,ht=120 bounds [perf<=0.000 t>=0.121] skip
+  277/500: cno=299 nprobe=2048,ht=50 bounds [perf<=0.000 t>=0.121] skip
+  278/500: cno=327 nprobe=8,ht=56 bounds [perf<=0.000 t>=0.121] skip
+  279/500: cno=79 nprobe=128,ht=14 bounds [perf<=0.000 t>=0.121] skip
+  280/500: cno=281 nprobe=32,ht=48 bounds [perf<=0.000 t>=0.121] skip
+  281/500: cno=441 nprobe=512,ht=74 bounds [perf<=0.000 t>=0.121] skip
+  282/500: cno=367 nprobe=128,ht=62 bounds [perf<=0.000 t>=0.121] skip
+  283/500: cno=577 nprobe=2,ht=98 bounds [perf<=0.000 t>=0.121] skip
+  284/500: cno=183 nprobe=8,ht=32 bounds [perf<=0.000 t>=0.121] skip
+  285/500: cno=174 nprobe=64,ht=30 bounds [perf<=0.000 t>=0.121] skip
+  286/500: cno=631 nprobe=128,ht=106 bounds [perf<=0.000 t>=0.121] skip
+  287/500: cno=594 nprobe=64,ht=100 bounds [perf<=0.000 t>=0.121] skip
+  288/500: cno=95 nprobe=2048,ht=16 bounds [perf<=0.000 t>=0.121] skip
+  289/500: cno=558 nprobe=64,ht=94 bounds [perf<=0.000 t>=0.121] skip
+  290/500: cno=310 nprobe=1024,ht=52 bounds [perf<=0.000 t>=0.121] skip
+  291/500: cno=778 nprobe=1024,ht=256 bounds [perf<=0.000 t>=0.121] skip
+  292/500: cno=679 nprobe=128,ht=114 bounds [perf<=0.000 t>=0.121] skip
+  293/500: cno=65 nprobe=32,ht=12 bounds [perf<=0.000 t>=0.121] skip
+  294/500: cno=747 nprobe=8,ht=126 bounds [perf<=0.000 t>=0.121] skip
+  295/500: cno=428 nprobe=256,ht=72 bounds [perf<=0.000 t>=0.121] skip
+  296/500: cno=374 nprobe=4,ht=64 bounds [perf<=0.000 t>=0.121] skip
+  297/500: cno=19 nprobe=128,ht=4 bounds [perf<=0.000 t>=0.121] skip
+  298/500: cno=440 nprobe=256,ht=74 bounds [perf<=0.000 t>=0.121] skip
+  299/500: cno=437 nprobe=32,ht=74 bounds [perf<=0.000 t>=0.121] skip
+  300/500: cno=2 nprobe=4,ht=2 bounds [perf<=0.000 t>=0.121] skip
+  301/500: cno=226 nprobe=1024,ht=38 bounds [perf<=0.000 t>=0.121] skip
+  302/500: cno=142 nprobe=1024,ht=24 bounds [perf<=0.000 t>=0.121] skip
+  303/500: cno=439 nprobe=128,ht=74 bounds [perf<=0.000 t>=0.121] skip
+  304/500: cno=471 nprobe=8,ht=80 bounds [perf<=0.000 t>=0.121] skip
+  305/500: cno=405 nprobe=512,ht=68 bounds [perf<=0.000 t>=0.121] skip
+  306/500: cno=388 nprobe=16,ht=66 bounds [perf<=0.000 t>=0.121] skip
+  307/500: cno=413 nprobe=32,ht=70 bounds [perf<=0.000 t>=0.121] skip
+  308/500: cno=409 nprobe=2,ht=70 bounds [perf<=0.000 t>=0.121] skip
+  309/500: cno=301 nprobe=2,ht=52 bounds [perf<=0.000 t>=0.121] skip
+  310/500: cno=630 nprobe=64,ht=106 bounds [perf<=0.000 t>=0.121] skip
+  311/500: cno=476 nprobe=256,ht=80 bounds [perf<=0.000 t>=0.121] skip
+  312/500: cno=178 nprobe=1024,ht=30 bounds [perf<=0.000 t>=0.121] skip
+  313/500: cno=528 nprobe=1,ht=90 bounds [perf<=0.000 t>=0.121] skip
+  314/500: cno=98 nprobe=4,ht=18 bounds [perf<=0.000 t>=0.121] skip
+  315/500: cno=332 nprobe=256,ht=56 bounds [perf<=0.000 t>=0.121] skip
+  316/500: cno=516 nprobe=1,ht=88 bounds [perf<=0.000 t>=0.121] skip
+  317/500: cno=96 nprobe=1,ht=18 bounds [perf<=0.000 t>=0.121] skip
+  318/500: cno=269 nprobe=32,ht=46 bounds [perf<=0.000 t>=0.121] skip
+  319/500: cno=450 nprobe=64,ht=76 bounds [perf<=0.000 t>=0.121] skip
+  320/500: cno=93 nprobe=512,ht=16 bounds [perf<=0.000 t>=0.121] skip
+  321/500: cno=343 nprobe=128,ht=58 bounds [perf<=0.000 t>=0.121] skip
+  322/500: cno=176 nprobe=256,ht=30 bounds [perf<=0.000 t>=0.121] skip
+  323/500: cno=72 nprobe=1,ht=14 bounds [perf<=0.000 t>=0.121] skip
+  324/500: cno=252 nprobe=1,ht=44 bounds [perf<=0.000 t>=0.121] skip
+  325/500: cno=321 nprobe=512,ht=54 bounds [perf<=0.000 t>=0.121] skip
+  326/500: cno=566 nprobe=4,ht=96 bounds [perf<=0.000 t>=0.121] skip
+  327/500: cno=677 nprobe=32,ht=114 bounds [perf<=0.000 t>=0.121] skip
+  328/500: cno=691 nprobe=128,ht=116 bounds [perf<=0.000 t>=0.121] skip
+  329/500: cno=415 nprobe=128,ht=70 bounds [perf<=0.000 t>=0.121] skip
+  330/500: cno=487 nprobe=128,ht=82 bounds [perf<=0.000 t>=0.121] skip
+  331/500: cno=351 nprobe=8,ht=60 bounds [perf<=0.000 t>=0.121] skip
+  332/500: cno=634 nprobe=1024,ht=106 bounds [perf<=0.000 t>=0.121] skip
+  333/500: cno=670 nprobe=1024,ht=112 bounds [perf<=0.000 t>=0.121] skip
+  334/500: cno=102 nprobe=64,ht=18 bounds [perf<=0.000 t>=0.121] skip
+  335/500: cno=182 nprobe=4,ht=32 bounds [perf<=0.000 t>=0.121] skip
+  336/500: cno=1 nprobe=2,ht=2 bounds [perf<=0.000 t>=0.121] skip
+  337/500: cno=77 nprobe=32,ht=14 bounds [perf<=0.000 t>=0.121] skip
+  338/500: cno=228 nprobe=1,ht=40 bounds [perf<=0.000 t>=0.121] skip
+  339/500: cno=562 nprobe=1024,ht=94 bounds [perf<=0.000 t>=0.121] skip
+  340/500: cno=458 nprobe=4,ht=78 bounds [perf<=0.000 t>=0.121] skip
+  341/500: cno=510 nprobe=64,ht=86 bounds [perf<=0.000 t>=0.121] skip
+  342/500: cno=195 nprobe=8,ht=34 bounds [perf<=0.000 t>=0.121] skip
+  343/500: cno=287 nprobe=2048,ht=48 bounds [perf<=0.000 t>=0.121] skip
+  344/500: cno=418 nprobe=1024,ht=70 bounds [perf<=0.000 t>=0.121] skip
+  345/500: cno=579 nprobe=8,ht=98 bounds [perf<=0.000 t>=0.121] skip
+  346/500: cno=97 nprobe=2,ht=18 bounds [perf<=0.000 t>=0.121] skip
+  347/500: cno=232 nprobe=16,ht=40 bounds [perf<=0.000 t>=0.121] skip
+  348/500: cno=772 nprobe=16,ht=256 bounds [perf<=0.000 t>=0.121] skip
+  349/500: cno=155 nprobe=2048,ht=26 bounds [perf<=0.000 t>=0.121] skip
+  350/500: cno=722 nprobe=4,ht=122 bounds [perf<=0.000 t>=0.121] skip
+  351/500: cno=606 nprobe=64,ht=102 bounds [perf<=0.000 t>=0.121] skip
+  352/500: cno=434 nprobe=4,ht=74 bounds [perf<=0.000 t>=0.121] skip
+  353/500: cno=85 nprobe=2,ht=16 bounds [perf<=0.000 t>=0.121] skip
+  354/500: cno=763 nprobe=128,ht=128 bounds [perf<=0.000 t>=0.121] skip
+  355/500: cno=111 nprobe=8,ht=20 bounds [perf<=0.000 t>=0.121] skip
+  356/500: cno=633 nprobe=512,ht=106 bounds [perf<=0.000 t>=0.121] skip
+  357/500: cno=395 nprobe=2048,ht=66 bounds [perf<=0.000 t>=0.121] skip
+  358/500: cno=770 nprobe=4,ht=256 bounds [perf<=0.000 t>=0.121] skip
+  359/500: cno=485 nprobe=32,ht=82 bounds [perf<=0.000 t>=0.121] skip
+  360/500: cno=398 nprobe=4,ht=68 bounds [perf<=0.000 t>=0.121] skip
+  361/500: cno=608 nprobe=256,ht=102 bounds [perf<=0.000 t>=0.121] skip
+  362/500: cno=297 nprobe=512,ht=50 bounds [perf<=0.000 t>=0.121] skip
+  363/500: cno=325 nprobe=2,ht=56 bounds [perf<=0.000 t>=0.121] skip
+  364/500: cno=5 nprobe=32,ht=2 bounds [perf<=0.000 t>=0.121] skip
+  365/500: cno=481 nprobe=2,ht=82 bounds [perf<=0.000 t>=0.121] skip
+  366/500: cno=643 nprobe=128,ht=108 bounds [perf<=0.000 t>=0.121] skip
+  367/500: cno=196 nprobe=16,ht=34 bounds [perf<=0.000 t>=0.121] skip
+  368/500: cno=308 nprobe=256,ht=52 bounds [perf<=0.000 t>=0.121] skip
+  369/500: cno=646 nprobe=1024,ht=108 bounds [perf<=0.000 t>=0.121] skip
+  370/500: cno=324 nprobe=1,ht=56 bounds [perf<=0.000 t>=0.121] skip
+  371/500: cno=593 nprobe=32,ht=100 bounds [perf<=0.000 t>=0.121] skip
+  372/500: cno=496 nprobe=16,ht=84 bounds [perf<=0.000 t>=0.121] skip
+  373/500: cno=614 nprobe=4,ht=104 bounds [perf<=0.000 t>=0.121] skip
+  374/500: cno=158 nprobe=4,ht=28 bounds [perf<=0.000 t>=0.121] skip
+  375/500: cno=538 nprobe=1024,ht=90 bounds [perf<=0.000 t>=0.121] skip
+  376/500: cno=365 nprobe=32,ht=62 bounds [perf<=0.000 t>=0.121] skip
+  377/500: cno=456 nprobe=1,ht=78 bounds [perf<=0.000 t>=0.121] skip
+  378/500: cno=295 nprobe=128,ht=50 bounds [perf<=0.000 t>=0.121] skip
+  379/500: cno=444 nprobe=1,ht=76 bounds [perf<=0.000 t>=0.121] skip
+  380/500: cno=423 nprobe=8,ht=72 bounds [perf<=0.000 t>=0.121] skip
+  381/500: cno=12 nprobe=1,ht=4 bounds [perf<=0.000 t>=0.121] skip
+  382/500: cno=244 nprobe=16,ht=42 bounds [perf<=0.000 t>=0.121] skip
+  383/500: cno=478 nprobe=1024,ht=80 bounds [perf<=0.000 t>=0.121] skip
+  384/500: cno=537 nprobe=512,ht=90 bounds [perf<=0.000 t>=0.121] skip
+  385/500: cno=578 nprobe=4,ht=98 bounds [perf<=0.000 t>=0.121] skip
+  386/500: cno=298 nprobe=1024,ht=50 bounds [perf<=0.000 t>=0.121] skip
+  387/500: cno=133 nprobe=2,ht=24 bounds [perf<=0.000 t>=0.121] skip
+  388/500: cno=572 nprobe=256,ht=96 bounds [perf<=0.000 t>=0.121] skip
+  389/500: cno=165 nprobe=512,ht=28 bounds [perf<=0.000 t>=0.121] skip
+  390/500: cno=44 nprobe=256,ht=8 bounds [perf<=0.000 t>=0.121] skip
+  391/500: cno=760 nprobe=16,ht=128 bounds [perf<=0.000 t>=0.121] skip
+  392/500: cno=372 nprobe=1,ht=64 bounds [perf<=0.000 t>=0.121] skip
+  393/500: cno=475 nprobe=128,ht=80 bounds [perf<=0.000 t>=0.121] skip
+  394/500: cno=730 nprobe=1024,ht=122 bounds [perf<=0.000 t>=0.121] skip
+  395/500: cno=56 nprobe=256,ht=10 bounds [perf<=0.000 t>=0.121] skip
+  396/500: cno=276 nprobe=1,ht=48 bounds [perf<=0.000 t>=0.121] skip
+  397/500: cno=198 nprobe=64,ht=34 bounds [perf<=0.000 t>=0.121] skip
+  398/500: cno=7 nprobe=128,ht=2 bounds [perf<=0.000 t>=0.121] skip
+  399/500: cno=761 nprobe=32,ht=128 bounds [perf<=0.000 t>=0.121] skip
+  400/500: cno=605 nprobe=32,ht=102 bounds [perf<=0.000 t>=0.121] skip
+  401/500: cno=765 nprobe=512,ht=128 bounds [perf<=0.000 t>=0.121] skip
+  402/500: cno=468 nprobe=1,ht=80 bounds [perf<=0.000 t>=0.121] skip
+  403/500: cno=75 nprobe=8,ht=14 bounds [perf<=0.000 t>=0.121] skip
+  404/500: cno=700 nprobe=16,ht=118 bounds [perf<=0.000 t>=0.121] skip
+  405/500: cno=610 nprobe=1024,ht=102 bounds [perf<=0.000 t>=0.121] skip
+  406/500: cno=175 nprobe=128,ht=30 bounds [perf<=0.000 t>=0.121] skip
+  407/500: cno=6 nprobe=64,ht=2 bounds [perf<=0.000 t>=0.121] skip
+  408/500: cno=609 nprobe=512,ht=102 bounds [perf<=0.000 t>=0.121] skip
+  409/500: cno=37 nprobe=2,ht=8 bounds [perf<=0.000 t>=0.121] skip
+  410/500: cno=427 nprobe=128,ht=72 bounds [perf<=0.000 t>=0.121] skip
+  411/500: cno=505 nprobe=2,ht=86 bounds [perf<=0.000 t>=0.121] skip
+  412/500: cno=318 nprobe=64,ht=54 bounds [perf<=0.000 t>=0.121] skip
+  413/500: cno=617 nprobe=32,ht=104 bounds [perf<=0.000 t>=0.121] skip
+  414/500: cno=396 nprobe=1,ht=68 bounds [perf<=0.000 t>=0.121] skip
+  415/500: cno=160 nprobe=16,ht=28 bounds [perf<=0.000 t>=0.121] skip
+  416/500: cno=777 nprobe=512,ht=256 bounds [perf<=0.000 t>=0.121] skip
+  417/500: cno=119 nprobe=2048,ht=20 bounds [perf<=0.000 t>=0.121] skip
+  418/500: cno=483 nprobe=8,ht=82 bounds [perf<=0.000 t>=0.121] skip
+  419/500: cno=590 nprobe=4,ht=100 bounds [perf<=0.000 t>=0.121] skip
+  420/500: cno=616 nprobe=16,ht=104 bounds [perf<=0.000 t>=0.121] skip
+  421/500: cno=304 nprobe=16,ht=52 bounds [perf<=0.000 t>=0.121] skip
+  422/500: cno=389 nprobe=32,ht=66 bounds [perf<=0.000 t>=0.121] skip
+  423/500: cno=745 nprobe=2,ht=126 bounds [perf<=0.000 t>=0.121] skip
+  424/500: cno=706 nprobe=1024,ht=118 bounds [perf<=0.000 t>=0.121] skip
+  425/500: cno=532 nprobe=16,ht=90 bounds [perf<=0.000 t>=0.121] skip
+  426/500: cno=70 nprobe=1024,ht=12 bounds [perf<=0.000 t>=0.121] skip
+  427/500: cno=687 nprobe=8,ht=116 bounds [perf<=0.000 t>=0.121] skip
+  428/500: cno=727 nprobe=128,ht=122 bounds [perf<=0.000 t>=0.121] skip
+  429/500: cno=249 nprobe=512,ht=42 bounds [perf<=0.000 t>=0.121] skip
+  430/500: cno=683 nprobe=2048,ht=114 bounds [perf<=0.000 t>=0.121] skip
+  431/500: cno=283 nprobe=128,ht=48 bounds [perf<=0.000 t>=0.121] skip
+  432/500: cno=378 nprobe=64,ht=64 bounds [perf<=0.000 t>=0.121] skip
+  433/500: cno=239 nprobe=2048,ht=40 bounds [perf<=0.000 t>=0.121] skip
+  434/500: cno=105 nprobe=512,ht=18 bounds [perf<=0.000 t>=0.121] skip
+  435/500: cno=152 nprobe=256,ht=26 bounds [perf<=0.000 t>=0.121] skip
+  436/500: cno=699 nprobe=8,ht=118 bounds [perf<=0.000 t>=0.121] skip
+  437/500: cno=443 nprobe=2048,ht=74 bounds [perf<=0.000 t>=0.121] skip
+  438/500: cno=551 nprobe=2048,ht=92 bounds [perf<=0.000 t>=0.121] skip
+  439/500: cno=275 nprobe=2048,ht=46 bounds [perf<=0.000 t>=0.121] skip
+  440/500: cno=52 nprobe=16,ht=10 bounds [perf<=0.000 t>=0.121] skip
+  441/500: cno=726 nprobe=64,ht=122 bounds [perf<=0.000 t>=0.121] skip
+  442/500: cno=110 nprobe=4,ht=20 bounds [perf<=0.000 t>=0.121] skip
+  443/500: cno=323 nprobe=2048,ht=54 bounds [perf<=0.000 t>=0.121] skip
+  444/500: cno=347 nprobe=2048,ht=58 bounds [perf<=0.000 t>=0.121] skip
+  445/500: cno=661 nprobe=2,ht=112 bounds [perf<=0.000 t>=0.121] skip
+  446/500: cno=159 nprobe=8,ht=28 bounds [perf<=0.000 t>=0.121] skip
+  447/500: cno=376 nprobe=16,ht=64 bounds [perf<=0.000 t>=0.121] skip
+  448/500: cno=380 nprobe=256,ht=64 bounds [perf<=0.000 t>=0.121] skip
+  449/500: cno=557 nprobe=32,ht=94 bounds [perf<=0.000 t>=0.121] skip
+  450/500: cno=104 nprobe=256,ht=18 bounds [perf<=0.000 t>=0.121] skip
+  451/500: cno=177 nprobe=512,ht=30 bounds [perf<=0.000 t>=0.121] skip
+  452/500: cno=743 nprobe=2048,ht=124 bounds [perf<=0.000 t>=0.121] skip
+  453/500: cno=353 nprobe=32,ht=60 bounds [perf<=0.000 t>=0.121] skip
+  454/500: cno=585 nprobe=512,ht=98 bounds [perf<=0.000 t>=0.121] skip
+  455/500: cno=250 nprobe=1024,ht=42 bounds [perf<=0.000 t>=0.121] skip
+  456/500: cno=584 nprobe=256,ht=98 bounds [perf<=0.000 t>=0.121] skip
+  457/500: cno=653 nprobe=32,ht=110 bounds [perf<=0.000 t>=0.121] skip
+  458/500: cno=432 nprobe=1,ht=74 bounds [perf<=0.000 t>=0.121] skip
+  459/500: cno=259 nprobe=128,ht=44 bounds [perf<=0.000 t>=0.121] skip
+  460/500: cno=733 nprobe=2,ht=124 bounds [perf<=0.000 t>=0.121] skip
+  461/500: cno=681 nprobe=512,ht=114 bounds [perf<=0.000 t>=0.121] skip
+  462/500: cno=493 nprobe=2,ht=84 bounds [perf<=0.000 t>=0.121] skip
+  463/500: cno=253 nprobe=2,ht=44 bounds [perf<=0.000 t>=0.121] skip
+  464/500: cno=466 nprobe=1024,ht=78 bounds [perf<=0.000 t>=0.121] skip
+  465/500: cno=219 nprobe=8,ht=38 bounds [perf<=0.000 t>=0.121] skip
+  466/500: cno=564 nprobe=1,ht=96 bounds [perf<=0.000 t>=0.121] skip
+  467/500: cno=400 nprobe=16,ht=68 bounds [perf<=0.000 t>=0.121] skip
+  468/500: cno=655 nprobe=128,ht=110 bounds [perf<=0.000 t>=0.121] skip
+  469/500: cno=84 nprobe=1,ht=16 bounds [perf<=0.000 t>=0.121] skip
+  470/500: cno=242 nprobe=4,ht=42 bounds [perf<=0.000 t>=0.121] skip
+  471/500: cno=447 nprobe=8,ht=76 bounds [perf<=0.000 t>=0.121] skip
+  472/500: cno=18 nprobe=64,ht=4 bounds [perf<=0.000 t>=0.121] skip
+  473/500: cno=707 nprobe=2048,ht=118 bounds [perf<=0.000 t>=0.121] skip
+  474/500: cno=512 nprobe=256,ht=86 bounds [perf<=0.000 t>=0.121] skip
+  475/500: cno=438 nprobe=64,ht=74 bounds [perf<=0.000 t>=0.121] skip
+  476/500: cno=514 nprobe=1024,ht=86 bounds [perf<=0.000 t>=0.121] skip
+  477/500: cno=499 nprobe=128,ht=84 bounds [perf<=0.000 t>=0.121] skip
+  478/500: cno=686 nprobe=4,ht=116 bounds [perf<=0.000 t>=0.121] skip
+  479/500: cno=15 nprobe=8,ht=4 bounds [perf<=0.000 t>=0.121] skip
+  480/500: cno=382 nprobe=1024,ht=64 bounds [perf<=0.000 t>=0.121] skip
+  481/500: cno=705 nprobe=512,ht=118 bounds [perf<=0.000 t>=0.121] skip
+  482/500: cno=623 nprobe=2048,ht=104 bounds [perf<=0.000 t>=0.121] skip
+  483/500: cno=501 nprobe=512,ht=84 bounds [perf<=0.000 t>=0.121] skip
+  484/500: cno=207 nprobe=8,ht=36 bounds [perf<=0.000 t>=0.121] skip
+  485/500: cno=363 nprobe=8,ht=62 bounds [perf<=0.000 t>=0.121] skip
+  486/500: cno=293 nprobe=32,ht=50 bounds [perf<=0.000 t>=0.121] skip
+  487/500: cno=744 nprobe=1,ht=126 bounds [perf<=0.000 t>=0.121] skip
+  488/500: cno=254 nprobe=4,ht=44 bounds [perf<=0.000 t>=0.121] skip
+  489/500: cno=574 nprobe=1024,ht=96 bounds [perf<=0.000 t>=0.121] skip
+  490/500: cno=482 nprobe=4,ht=82 bounds [perf<=0.000 t>=0.121] skip
+  491/500: cno=703 nprobe=128,ht=118 bounds [perf<=0.000 t>=0.121] skip
+  492/500: cno=753 nprobe=512,ht=126 bounds [perf<=0.000 t>=0.121] skip
+  493/500: cno=773 nprobe=32,ht=256 bounds [perf<=0.000 t>=0.121] skip
+  494/500: cno=24 nprobe=1,ht=6 bounds [perf<=0.000 t>=0.121] skip
+  495/500: cno=665 nprobe=32,ht=112 bounds [perf<=0.000 t>=0.121] skip
+  496/500: cno=42 nprobe=64,ht=8 bounds [perf<=0.000 t>=0.121] skip
+  497/500: cno=113 nprobe=32,ht=20 bounds [perf<=0.000 t>=0.121] skip
+  498/500: cno=555 nprobe=8,ht=94 bounds [perf<=0.000 t>=0.121] skip
+  499/500: cno=315 nprobe=8,ht=54 bounds [perf<=0.000 t>=0.121] skip
+[700.043 s] Found the following operating points: 
+Tested 2 operating points, 1 ones are Pareto-optimal:
+cno=-1 key= perf=0.0000 t=0.000 
+[700.046 s] Setting parameter configuration "" on index
+[700.046 s] Perform a search on 10000 queries
+
+STATS:IndexIVF::search() [1], 200,  139.133057, 8730.762207
+
+STATS:IndexIVF::search() [1], 200,  84.080078, 9181.167969
+
+STATS:IndexIVF::search() [1], 200,  80.676025, 9914.270020
+
+STATS:IndexIVF::search() [1], 200,  85.864990, 10055.420898
+
+STATS:IndexIVF::search() [1], 200,  82.133057, 10097.173096
+
+STATS:IndexIVF::search() [1], 200,  76.351074, 10224.822021
+
+STATS:IndexIVF::search() [1], 200,  82.949951, 10233.902832
+
+STATS:IndexIVF::search() [1], 200,  82.577148, 10242.058105
+
+STATS:IndexIVF::search() [1], 200,  70.332031, 10250.991211
+
+STATS:IndexIVF::search() [1], 200,  84.603027, 10252.450195
+
+STATS:IndexIVF::search() [1], 200,  82.672852, 10265.591064
+
+STATS:IndexIVF::search() [1], 200,  84.741211, 10283.719238
+
+STATS:IndexIVF::search() [1], 200,  131.294922, 10295.526855
+
+STATS:IndexIVF::search() [1], 200,  80.882080, 10296.228027
+
+STATS:IndexIVF::search() [1], 200,  83.804932, 10317.581055
+
+STATS:IndexIVF::search() [1], 200,  81.437012, 10337.317139
+
+STATS:IndexIVF::search() [1], 200,  132.808838, 10565.218018
+
+STATS:IndexIVF::search() [1], 200,  100.454834, 10592.293945
+
+STATS:IndexIVF::search() [1], 200,  82.884033, 10726.149170
+
+STATS:IndexIVF::search() [1], 200,  82.704102, 10729.022949
+
+STATS:IndexIVF::search() [1], 200,  81.791992, 10773.958008
+
+STATS:IndexIVF::search() [1], 200,  142.323975, 10917.885986
+
+STATS:IndexIVF::search() [1], 200,  82.975098, 11370.391113
+
+STATS:IndexIVF::search() [1], 200,  74.526123, 11477.051025
+
+STATS:IndexIVF::search() [1], 200,  82.535156, 11651.686035
+
+STATS:IndexIVF::search() [1], 200,  81.959961, 11690.679932
+
+STATS:IndexIVF::search() [1], 200,  68.142090, 11830.447021
+
+STATS:IndexIVF::search() [1], 200,  93.791992, 11835.705811
+
+STATS:IndexIVF::search() [1], 200,  66.093018, 11887.115967
+
+STATS:IndexIVF::search() [1], 200,  83.169922, 11921.648926
+
+STATS:IndexIVF::search() [1], 200,  85.864990, 11973.199951
+
+STATS:IndexIVF::search() [1], 200,  143.453125, 12046.356934
+
+STATS:IndexIVF::search() [1], 200,  88.333008, 12112.411865
+
+STATS:IndexIVF::search() [1], 200,  98.658936, 12123.794922
+
+STATS:IndexIVF::search() [1], 200,  99.375977, 12129.430908
+
+STATS:IndexIVF::search() [1], 200,  98.549072, 12130.906982
+
+STATS:IndexIVF::search() [1], 200,  98.236084, 12138.427979
+
+STATS:IndexIVF::search() [1], 200,  94.209961, 12138.928955
+
+STATS:IndexIVF::search() [1], 200,  97.822021, 12149.447998
+
+STATS:IndexIVF::search() [1], 200,  95.563965, 12147.552002
+
+STATS:IndexIVF::search() [1], 200,  86.562012, 12158.104004
+
+STATS:IndexIVF::search() [1], 200,  96.503906, 12158.846924
+
+STATS:IndexIVF::search() [1], 200,  95.833008, 12170.630859
+
+STATS:IndexIVF::search() [1], 200,  89.197021, 12174.235107
+
+STATS:IndexIVF::search() [1], 200,  98.701904, 12181.322021
+
+STATS:IndexIVF::search() [1], 200,  99.371094, 12181.664062
+
+STATS:IndexIVF::search() [1], 200,  96.723877, 12182.836914
+
+STATS:IndexIVF::search() [1], 200,  97.031006, 12183.766113
+
+STATS:IndexIVF::search() [1], 200,  99.006836, 12197.873047
+
+STATS:IndexIVF::search() [1], 200,  99.067139, 12199.095947
+
+STATS:IndexIVF::search() [1], 200,  98.209961, 12200.305908
+
+STATS:IndexIVF::search() [1], 200,  96.346924, 12198.032959
+
+STATS:IndexIVF::search() [1], 200,  96.505127, 12198.347168
+
+STATS:IndexIVF::search() [1], 200,  96.672852, 12200.606934
+
+STATS:IndexIVF::search() [1], 200,  99.084961, 12203.682129
+
+STATS:IndexIVF::search() [1], 200,  96.133057, 12201.198975
+
+STATS:IndexIVF::search() [1], 200,  97.811035, 12205.222900
+
+STATS:IndexIVF::search() [1], 200,  169.381836, 12214.734863
+
+STATS:IndexIVF::search() [1], 200,  98.431885, 12215.144043
+
+STATS:IndexIVF::search() [1], 200,  149.820068, 12225.393066
+
+STATS:IndexIVF::search() [1], 200,  127.038818, 12240.815918
+
+STATS:IndexIVF::search() [1], 200,  155.665039, 12247.568115
+
+STATS:IndexIVF::search() [1], 200,  93.964111, 12253.789062
+
+STATS:IndexIVF::search() [1], 200,  96.465820, 12256.182861
+
+STATS:IndexIVF::search() [1], 200,  220.245117, 12256.944092
+
+STATS:IndexIVF::search() [1], 200,  99.385010, 12288.791016
+
+STATS:IndexIVF::search() [1], 200,  91.771973, 12303.045166
+
+STATS:IndexIVF::search() [1], 200,  97.742920, 12303.324951
+
+STATS:IndexIVF::search() [1], 200,  99.959961, 12309.776123
+
+STATS:IndexIVF::search() [1], 200,  101.857910, 12310.061035
+
+STATS:IndexIVF::search() [1], 200,  148.791016, 12345.571045
+
+STATS:IndexIVF::search() [1], 200,  157.069824, 12354.577881
+
+STATS:IndexIVF::search() [1], 200,  105.164062, 12355.953857
+
+STATS:IndexIVF::search() [1], 200,  99.703857, 12360.323975
+
+STATS:IndexIVF::search() [1], 200,  100.338135, 12381.277100
+
+STATS:IndexIVF::search() [1], 200,  98.700928, 12390.700928
+
+STATS:IndexIVF::search() [1], 200,  99.541992, 12403.310059
+
+STATS:IndexIVF::search() [1], 200,  94.377930, 12434.113037
+
+STATS:IndexIVF::search() [1], 200,  99.055908, 12450.709961
+
+STATS:IndexIVF::search() [1], 200,  97.531982, 12467.849854
+
+STATS:IndexIVF::search() [1], 200,  155.021973, 12482.521973
+
+STATS:IndexIVF::search() [1], 200,  97.890869, 12493.482910
+
+STATS:IndexIVF::search() [1], 200,  79.989990, 12529.382080
+
+STATS:IndexIVF::search() [1], 200,  79.074951, 12566.126953
+
+STATS:IndexIVF::search() [1], 200,  99.332031, 12578.310059
+
+STATS:IndexIVF::search() [1], 200,  86.506104, 12621.426025
+
+STATS:IndexIVF::search() [1], 200,  232.758057, 12654.070068
+
+STATS:IndexIVF::search() [1], 200,  149.065918, 12672.775879
+
+STATS:IndexIVF::search() [1], 200,  94.781982, 12690.844971
+
+STATS:IndexIVF::search() [1], 200,  100.417969, 12716.370850
+
+STATS:IndexIVF::search() [1], 200,  144.443848, 12735.098877
+
+STATS:IndexIVF::search() [1], 200,  93.436035, 12741.986084
+
+STATS:IndexIVF::search() [1], 200,  95.147217, 12747.131104
+
+STATS:IndexIVF::search() [1], 200,  81.801025, 12804.117920
+
+STATS:IndexIVF::search() [1], 200,  164.190918, 12850.317871
+
+STATS:IndexIVF::search() [1], 200,  160.082031, 12862.976074
+
+STATS:IndexIVF::search() [1], 200,  95.821045, 12897.894043
+
+STATS:IndexIVF::search() [1], 200,  94.056885, 12906.408936
+
+STATS:IndexIVF::search() [1], 200,  157.297852, 12908.727051
+
+STATS:IndexIVF::search() [1], 200,  96.225830, 12953.601807
+
+STATS:IndexIVF::search() [1], 200,  96.072998, 12964.504883
+
+STATS:IndexIVF::search() [1], 200,  180.340088, 13012.531006
+
+STATS:IndexIVF::search() [1], 200,  81.259033, 13044.536865
+
+STATS:IndexIVF::search() [1], 200,  172.825195, 13086.987061
+
+STATS:IndexIVF::search() [1], 200,  81.611084, 13098.340088
+
+STATS:IndexIVF::search() [1], 200,  96.079834, 13139.931885
+
+STATS:IndexIVF::search() [1], 200,  95.456055, 13140.863037
+
+STATS:IndexIVF::search() [1], 200,  66.093994, 13221.724121
+
+STATS:IndexIVF::search() [1], 200,  88.601074, 13243.270020
+
+STATS:IndexIVF::search() [1], 200,  151.819092, 13266.516113
+
+STATS:IndexIVF::search() [1], 200,  183.382080, 13292.639893
+
+STATS:IndexIVF::search() [1], 200,  94.130859, 13307.472900
+
+STATS:IndexIVF::search() [1], 200,  96.704102, 13350.705078
+
+STATS:IndexIVF::search() [1], 200,  114.474121, 13394.409912
+
+STATS:IndexIVF::search() [1], 200,  156.033936, 13449.251953
+
+STATS:IndexIVF::search() [1], 200,  95.056152, 13473.817139
+
+STATS:IndexIVF::search() [1], 200,  325.024902, 13503.001953
+
+STATS:IndexIVF::search() [1], 200,  83.963867, 13508.751953
+
+STATS:IndexIVF::search() [1], 200,  93.870117, 13528.467041
+
+STATS:IndexIVF::search() [1], 200,  266.837891, 13629.123779
+
+STATS:IndexIVF::search() [1], 200,  184.495117, 13630.873047
+
+STATS:IndexIVF::search() [1], 200,  182.144043, 13653.022949
+
+STATS:IndexIVF::search() [1], 200,  228.387207, 13700.414062
+
+STATS:IndexIVF::search() [1], 200,  95.966064, 13842.746094
+
+STATS:IndexIVF::search() [1], 200,  264.590820, 13935.856934
+
+STATS:IndexIVF::search() [1], 200,  161.648926, 14049.354004
+
+STATS:IndexIVF::search() [1], 200,  98.482910, 14054.060059
+
+STATS:IndexIVF::search() [1], 200,  172.304932, 14129.874023
+
+STATS:IndexIVF::search() [1], 200,  173.580811, 14169.557861
+
+STATS:IndexIVF::search() [1], 200,  258.562012, 14207.144043
+
+STATS:IndexIVF::search() [1], 200,  192.386963, 14290.187988
+
+STATS:IndexIVF::search() [1], 200,  172.775879, 14323.927979
+
+STATS:IndexIVF::search() [1], 200,  289.104980, 14324.600830
+
+STATS:IndexIVF::search() [1], 200,  96.039062, 14352.990967
+
+STATS:IndexIVF::search() [1], 200,  93.960938, 14421.144043
+
+STATS:IndexIVF::search() [1], 200,  172.494873, 14478.938965
+
+STATS:IndexIVF::search() [1], 200,  165.703857, 14574.583008
+
+STATS:IndexIVF::search() [1], 200,  114.706055, 14598.480225
+
+STATS:IndexIVF::search() [1], 200,  91.745850, 14689.399902
+
+STATS:IndexIVF::search() [1], 200,  166.529053, 14745.647949
+
+STATS:IndexIVF::search() [1], 200,  153.936035, 14823.803955
+
+STATS:IndexIVF::search() [1], 200,  169.641846, 14960.460938
+
+STATS:IndexIVF::search() [1], 200,  96.196045, 15090.008057
+
+STATS:IndexIVF::search() [1], 200,  298.453125, 15158.720947
+
+STATS:IndexIVF::search() [1], 200,  180.334961, 15251.148926
+
+STATS:IndexIVF::search() [1], 200,  96.176025, 15297.510986
+
+STATS:IndexIVF::search() [1], 200,  154.690918, 15300.929932
+
+STATS:IndexIVF::search() [1], 200,  182.966064, 15325.635010
+
+STATS:IndexIVF::search() [1], 200,  282.436035, 15348.258057
+
+STATS:IndexIVF::search() [1], 200,  150.883057, 15375.043945
+
+STATS:IndexIVF::search() [1], 200,  183.660156, 15378.660156
+
+STATS:IndexIVF::search() [1], 200,  93.687988, 15424.823975
+
+STATS:IndexIVF::search() [1], 200,  169.408203, 15505.168213
+
+STATS:IndexIVF::search() [1], 200,  236.225098, 15533.528076
+
+STATS:IndexIVF::search() [1], 200,  292.213867, 15548.784912
+
+STATS:IndexIVF::search() [1], 200,  94.385010, 15645.035889
+
+STATS:IndexIVF::search() [1], 200,  145.996094, 15685.361084
+
+STATS:IndexIVF::search() [1], 200,  213.155029, 15711.135010
+
+STATS:IndexIVF::search() [1], 200,  99.072021, 15720.411133
+
+STATS:IndexIVF::search() [1], 200,  88.275146, 15751.051025
+
+STATS:IndexIVF::search() [1], 200,  144.058838, 15751.717041
+
+STATS:IndexIVF::search() [1], 200,  149.406006, 15930.716064
+
+STATS:IndexIVF::search() [1], 200,  101.050049, 16036.923096
+
+STATS:IndexIVF::search() [1], 200,  110.607910, 16178.592041
+
+STATS:IndexIVF::search() [1], 200,  94.812012, 16198.371094
+
+STATS:IndexIVF::search() [1], 200,  182.258057, 16225.957031
+
+STATS:IndexIVF::search() [1], 200,  251.256104, 16317.375977
+
+STATS:IndexIVF::search() [1], 200,  148.812988, 16325.078857
+
+STATS:IndexIVF::search() [1], 200,  95.585938, 16362.143066
+
+STATS:IndexIVF::search() [1], 200,  100.201904, 16370.362061
+
+STATS:IndexIVF::search() [1], 200,  118.877930, 16397.875977
+
+STATS:IndexIVF::search() [1], 200,  169.613037, 16422.770020
+
+STATS:IndexIVF::search() [1], 200,  99.783203, 16449.923096
+
+STATS:IndexIVF::search() [1], 200,  130.561035, 16622.684814
+
+STATS:IndexIVF::search() [1], 200,  85.447998, 16741.833008
+
+STATS:IndexIVF::search() [1], 200,  97.189941, 16791.573975
+
+STATS:IndexIVF::search() [1], 200,  111.458984, 16800.945068
+
+STATS:IndexIVF::search() [1], 200,  99.657959, 16841.223877
+
+STATS:IndexIVF::search() [1], 200,  164.337891, 16856.296875
+
+STATS:IndexIVF::search() [1], 200,  182.829102, 16892.231934
+
+STATS:IndexIVF::search() [1], 200,  169.905029, 16942.750977
+
+STATS:IndexIVF::search() [1], 200,  244.579102, 16962.101074
+
+STATS:IndexIVF::search() [1], 200,  95.156982, 16971.052002
+
+STATS:IndexIVF::search() [1], 200,  223.206055, 16983.675049
+
+STATS:IndexIVF::search() [1], 200,  215.247070, 16988.378174
+
+STATS:IndexIVF::search() [1], 200,  309.281982, 17025.348877
+
+STATS:IndexIVF::search() [1], 200,  171.549072, 17036.983154
+
+STATS:IndexIVF::search() [1], 200,  180.987793, 17146.919922
+
+STATS:IndexIVF::search() [1], 200,  168.347900, 17247.208984
+
+STATS:IndexIVF::search() [1], 200,  116.950928, 17270.011963
+
+STATS:IndexIVF::search() [1], 200,  166.194092, 17278.250000
+
+STATS:IndexIVF::search() [1], 200,  176.334961, 17343.892822
+[717.391 s] Compute recalls
+R@1 = 0.0000
+R@10 = 0.0001
+R@100 = 0.0001
